@@ -98,11 +98,12 @@ class Bayegent:
 
         self.position = self.environment.start_pos
         assert self.environment.grid[self.position] == 0
-        self.position_history = [] 
 
     def learn(self, N=100): 
         for i in range(N): # Run through the maze N times
-            self.run_maze()
+            position_history = self.run_maze()
+            # TODO: implement bayesian stuff...
+            
 
     def sense(self):
         left_sensor = self.environment.get_distance_to_wall(self.position, 'L')
@@ -139,12 +140,13 @@ class Bayegent:
         pass
 
     def run_maze(self):
+        position_history = []
         while self.position != self.environment.end_pos:
-            self.position_history.append(self.position)
+            position_history.append(self.position)
             sensor_state = self.sense()
             action = self.take_random_action()
 
-        return self.position_history
+        return position_history
 
 
 
