@@ -12,6 +12,8 @@ class GridMazeEnvironment:
         self.height = None
         self.grid = None
 
+        self.generate_maze()
+
     def generate_maze(self):
         # 0 is "open", moveable space
         # 1 is a wall
@@ -153,7 +155,6 @@ class Bayegent:
 
 
 environment = GridMazeEnvironment()
-environment.generate_maze()
 agent = Bayegent(environment)
 
 position_history = agent.run_maze()
