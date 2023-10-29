@@ -99,7 +99,7 @@ class Bayegent:
         self.likelihood = {} # Map between sensory states and probabilities (likelihood function)
 
         self.qtable = {}
-        self.curiosity = 0.4
+        self.curiosity = 0.3
 
         self.position = self.environment.start_pos
         assert self.environment.grid[self.position] == 0
@@ -255,13 +255,15 @@ class Bayegent:
         position_history = []
         sa_history = []
 
-        while self.position != self.environment.end_pos:
-            position_history.append(self.position)
+        position_history.append(self.position)
 
+        while self.position != self.environment.end_pos:
             sensor_state = self.sense()
             action = self.take_qtable_action(sensor_state)
-            
             sa_history.append((sensor_state, action))
+            position_history.append(self.position)
+
+        position_history.append(self.environment.end_pos)
 
         return position_history, sa_history
 
@@ -282,17 +284,59 @@ class Bayegent:
             posterior_history.append(posterior_distribution)
             sa_history.append((sensor_state, action))
 
+        position_history.append(self.environment.end_pos)
+
         return position_history, sa_history, posterior_history
 
-    def update_qtable(self, sa_history):
-        rewards = np.linspace(0, 1, len(sa_history))
-        for i, sa_pair in enumerate(sa_history):
-            # if i % 50 == 0:
-                # print(f'{i}/{len(sa_history)} SA pairs updated...')
-            if sa_pair in self.qtable:
-                self.qtable[sa_pair] += rewards[i]
+
+    # def update_qtable(self, sa_history, position_history):
+    #     rewards = np.linspace(0, 1, len(sa_history))
+    #     for i, sa_pair in enumerate(sa_history):
+    #         # if i % 50 == 0:
+    #             # print(f'{i}/{len(sa_history)} SA pairs updated...')
+    #         if sa_pair in self.qtable:
+    #             self.qtable[sa_pair] += rewards[i]
+    #         else:
+    #             self.qtable[sa_pair] = rewards[i]
+
+    def update_qtable(self, state_action_list, alpha=0.5, gamma=0.8): # Written by ChatGPT
+        """
+        Update the Q-table based on a list of state, action tuples.
+        
+        Parameters:
+        - q_table: The Q-table to update.
+        - state_action_list: A list of (state, action) tuples from a maze run.
+        - alpha: Learning rate.
+        - gamma: Discount factor.
+        
+        Returns:
+        - Updated Q-table.
+        """
+        
+        # Define rewards
+        step_reward = -0.1
+        goal_reward = 1.0
+        
+        # Iterate backwards through the state-action list
+        next_max_q_value = 0  # since there's no next state after reaching the goal
+        
+        for i, sa_pair in enumerate(reversed(state_action_list)):
+            if i == 0:  # Check if it's the goal state
+                reward = goal_reward
             else:
-                self.qtable[sa_pair] = rewards[i]
+                reward = step_reward
+            
+            # Q-learning update rule
+            if sa_pair in self.qtable:
+                current_q_value = self.qtable[sa_pair]
+                self.qtable[sa_pair] = (1 - alpha) * current_q_value + alpha * (reward + gamma * next_max_q_value)
+            else:
+                self.qtable[sa_pair] = reward 
+
+            # Update the next_max_q_value for the next iteration
+            next_max_q_value = np.max([self.qtable[sa] for sa in self.qtable.keys() if sa[0] == sa_pair[0]])
+            
+
 
     def update_likelihood(self, posterior_history):
         return self.likelihood
@@ -304,11 +348,12 @@ class Bayegent:
 environment = GridMazeEnvironment()
 agent = Bayegent(environment)
 
-position_history = agent.learn_qtable(n_runs=100)
+position_history = agent.learn_qtable(n_runs=10)
+print(position_history[-1])
 # position_history, sa_history, posterior_history = agent.run_maze()
 # position_history, sa_history = agent.run_maze_qtable()
 
-print(agent.qtable)
+# print(agent.qtable)
 print(len(position_history))
 environment.visualize_agent_trajectory(position_history)
 
