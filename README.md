@@ -16,6 +16,7 @@ To run, please run main.py from the command line. We have 4 optional command lin
 python3 main.py 
 
 python3 main.py 0 10 1 maze_file
+```
 
 ## Prerequisites
 TBA 
