@@ -3,16 +3,57 @@ import numpy as np
 import matplotlib.animation as animation
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
+from mazelib import Maze
+from mazelib.generate.Prims import Prims
+
 
 class GridMazeEnvironment:
-    def __init__(self):
+    def __init__(self, seed, maze_file = "maze.txt"):
         self.start_pos = None
         self.end_pos = None
         self.width = None
         self.height = None
         self.grid = None
+        self.seed = seed 
+        #self.read_maze_from_file(maze_file)
+        self.random_maze_generation()
+        self.height = np.array(self.grid).shape[0]
+        self.width = np.array(self.grid).shape[1]
 
-        self.generate_maze()
+    def random_maze_generation(self):
+        maze_dim_x = 3
+        maze_dim_y = 3
+
+        m = Maze()
+        m.set_seed(self.seed)
+        m.generator = Prims(maze_dim_x, maze_dim_y)
+        m.generate()
+        self.grid = m.grid
+        m._generate_inner_entrances()
+
+        self.start_pos, self.end_pos = m.start, m.end
+
+
+    def read_maze_from_file(self, file_path):
+        maze = []
+        in_maze_section = False
+
+        with open(file_path, 'r') as file:
+            for line in file:
+                line = line.strip()
+                if line.startswith("Start:"):
+                    self.start_pos = tuple(map(int, line.split("(")[1].split(")")[0].split(",")))
+                elif line.startswith("End:"):
+                    self.end_pos = tuple(map(int, line.split("(")[1].split(")")[0].split(",")))
+                elif line == "Maze:":
+                    in_maze_section = True
+                elif in_maze_section:
+                    row = list(line)
+                    row = [int(x) for x in row]
+                    maze.append(row)
+
+        self.grid = np.array(maze) 
+ 
 
     def generate_maze(self):
         # 0 is "open", moveable space

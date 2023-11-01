@@ -1,5 +1,8 @@
 import numpy as np 
 import random 
+import matplotlib.pyplot as plt 
+from scipy.ndimage import convolve
+import constants 
 
 
 class Bayegent:
@@ -9,12 +12,13 @@ class Bayegent:
         self.environment = environment
         
         self.prior = np.zeros((environment.height, environment.width))
-        self.prior[self.environment.start_pos[0], self.environment.start_pos[0]] = 1 
+        self.prior[self.environment.start_pos[0], self.environment.start_pos[1]] = 1 #100% chance we are at the beginning 
+
         self.posterior = np.zeros((environment.height, environment.width))
-        self.likelihood = {} # Map between sensory states and probabilities (likelihood function)
+        self.likelihood = {} 
 
         self.qtable = {}
-        self.curiosity = 0.3
+        self.curiosity = constants.curosity
 
         self.position = self.environment.start_pos
         assert self.environment.grid[self.position] == 0
@@ -26,8 +30,27 @@ class Bayegent:
             self.update_qtable(sa_history)
             self.update_likelihood(posterior_history)
             # TODO: implement bayesian stuff...
-    def update_prior(self):
-        pass
+    def update_prior(self, action):
+
+        spread_factor = constants.confusion
+
+        direction_to_kernel = {
+        "U": np.array([[0, spread_factor, 0], [0, 1 - spread_factor, 0], [0, 0, 0]]),
+        "D": np.array([[0, 0, 0], [0, 1 - spread_factor, 0], [0, spread_factor, 0]]),
+        "L": np.array([[0, 0, 0], [spread_factor, 1 - spread_factor, 0], [0, 0, 0]]),
+        "R": np.array([[0, 0, 0], [0, 1 - spread_factor, spread_factor], [0, 0, 0]])
+        }
+
+        spread_kernel = direction_to_kernel[action]
+
+        self.prior = convolve(self.prior, spread_kernel, mode='constant', cval=0)
+        self.prior = self.prior/np.sum(self.prior)
+
+        # plt.imshow(self.prior, cmap='viridis') 
+        # plt.scatter(self.position[1], self.position[0], color = 'red', alpha = 0.2)
+        # plt.pause(0.5)
+        # plt.clf()
+
 
     def learn_qtable(self, n_runs=10): 
         for i in range(n_runs): # Run through the maze N times
@@ -39,6 +62,7 @@ class Bayegent:
             print(f'{i+1}/{n_runs} runs complete')
 
         return position_history
+
 
     def sense(self):
         left_sensor = self.environment.get_distance_to_wall(self.position, 'L')
@@ -99,6 +123,7 @@ class Bayegent:
 
         return action
 
+
     def take_qtable_action(self, sensor_state):
         '''
         Take an unweighted reward-based action
@@ -122,9 +147,9 @@ class Bayegent:
             action = np.random.choice(possible_best_actions)
         else:
             action = np.random.choice(action_space)
-
+        
         self.update_position_from_action(action)
-
+        self.update_prior(action)
         return action
 
     def take_qtable_weighted_action(self, sensor_state, posterior_distribution):

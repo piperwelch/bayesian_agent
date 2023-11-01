@@ -17,7 +17,7 @@ if len(sys.argv) == 5:
     gif_name = sys.argv[4]
 
 
-environment = GridMazeEnvironment()
+environment = GridMazeEnvironment(seed)
 agent = Bayegent(environment, seed)
 
 position_history = agent.learn_qtable(n_runs=n_runs)
