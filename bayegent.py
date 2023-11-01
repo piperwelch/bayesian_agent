@@ -9,6 +9,7 @@ class Bayegent:
         self.environment = environment
         
         self.prior = np.zeros((environment.height, environment.width))
+        self.prior[self.environment.start_pos[0], self.environment.start_pos[0]] = 1 
         self.posterior = np.zeros((environment.height, environment.width))
         self.likelihood = {} # Map between sensory states and probabilities (likelihood function)
 
@@ -25,7 +26,9 @@ class Bayegent:
             self.update_qtable(sa_history)
             self.update_likelihood(posterior_history)
             # TODO: implement bayesian stuff...
-            
+    def update_prior(self):
+        pass
+
     def learn_qtable(self, n_runs=10): 
         for i in range(n_runs): # Run through the maze N times
             self.position = self.environment.start_pos # Reset position

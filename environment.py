@@ -50,14 +50,7 @@ class GridMazeEnvironment:
 
         return distance
 
-    def visualize_agent_trajectory(self, position_history, file_name): # Made by ChatGPT
-        """ 
-        Animate the trajectory of an agent in a grid environment.
-
-        Parameters:
-        - grid (list of lists): NxM grid where 0 represents walkable spaces and 1 represents walls.
-        - trajectory (list): List of (r, c) tuples representing the agent's position at every timestep.
-        """
+    def visualize_agent_trajectory(self, position_history, file_name):
         N, M = len(self.grid), len(self.grid[0])
         fig, ax = plt.subplots(figsize=(M, N))
 
@@ -65,9 +58,11 @@ class GridMazeEnvironment:
         for r in range(N):
             for c in range(M):
                 color = 'white' if self.grid[r][c] == 0 else 'black'
+                if r == self.end_pos[0] and c == self.end_pos[1]: 
+                    color = 'pink'
                 ax.add_patch(patches.Rectangle((c, N-r-1), 1, 1, facecolor=color, edgecolor='black'))
 
-        agent_dot, = ax.plot([], [], 'ro')  # Initialize agent dot
+        agent_square = patches.Rectangle((0, 0), 1, 1, facecolor='red')  # Initialize agent square
 
         ax.set_xticks(range(M+1))
         ax.set_yticks(range(N+1))
@@ -77,13 +72,14 @@ class GridMazeEnvironment:
         plt.gca().invert_yaxis()  # to match the row-column indexing
 
         def init():
-            agent_dot.set_data([], [])
-            return agent_dot,
+            agent_square.set_xy((0, 0))
+            ax.add_patch(agent_square)
+            return agent_square,
 
         def update(frame):
             r, c = position_history[frame]
-            agent_dot.set_data(c+0.5, N-r-0.5)  # Convert row, column to y, x and center the agent in the cell
-            return agent_dot,
+            agent_square.set_xy((c, N-r-1))
+            return agent_square,
 
         ani = animation.FuncAnimation(fig, update, frames=len(position_history), init_func=init, blit=True)
         ani.save(f'{file_name}.gif')

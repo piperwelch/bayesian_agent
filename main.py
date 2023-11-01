@@ -9,7 +9,7 @@ n_runs = 10
 
 
 if len(sys.argv) == 5: 
-
+    print("USING COMMAND LINE ARGUMENTS")
     seed = int(sys.argv[1])
     n_runs = int(sys.argv[2]) #must be more than 0
     if n_runs <=0: n_runs=1
