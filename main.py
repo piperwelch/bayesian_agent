@@ -1,26 +1,23 @@
+import sys 
+import argparse
+
 from bayegent import Bayegent
 from environment import GridMazeEnvironment
-import sys 
 
-seed = 0
-vis_bool = True
-gif_name = "maze_trace"
-n_runs = 10 
+parser = argparse.ArgumentParser()
+parser.add_argument('--n_runs', type=int, default=10, help='Number of maze runs for Bayegent')
+parser.add_argument('--seed', type=int, default=0, help='Seed for RNG')
+parser.add_argument('--vis', type=bool, default=True, help='Boolean, visualize the maze run')
+parser.add_argument('--gif_name', type=str, default='maze_trace', help='Name for saved file of maze run')
 
+args = parser.parse_args()
 
-if len(sys.argv) == 5: 
-    print("USING COMMAND LINE ARGUMENTS")
-    seed = int(sys.argv[1])
-    n_runs = int(sys.argv[2]) #must be more than 0
-    if n_runs <=0: n_runs=1
-    vis_bool = int(sys.argv[3])
-    gif_name = sys.argv[4]
+if __name__ == '__main__':
+    environment = GridMazeEnvironment(args.seed)
+    agent = Bayegent(environment, args.seed)
 
+    # position_history = agent.learn_qtable(n_runs=args.n_runs)
+    position_history = agent.learn_bayesian(n_runs=args.n_runs)
 
-environment = GridMazeEnvironment(seed)
-agent = Bayegent(environment, seed)
-
-position_history = agent.learn_qtable(n_runs=n_runs)
-
-if vis_bool:
-    environment.visualize_agent_trajectory(position_history, gif_name)
+    if args.vis:
+        environment.visualize_agent_trajectory(position_history, args.gif_name)
