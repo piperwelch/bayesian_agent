@@ -15,7 +15,7 @@ class Bayegent:
         self.prior[self.environment.start_pos[0], self.environment.start_pos[1]] = 1 #100% chance we are at the beginning 
 
         self.posterior = np.zeros((environment.height, environment.width))
-        self.likelihood = {} 
+        self.likelihood = {} # Dictionary of sensations to position distributions 
 
         self.qtable = {}
         self.curiosity = constants.curosity
@@ -23,13 +23,31 @@ class Bayegent:
         self.position = self.environment.start_pos
         assert self.environment.grid[self.position] == 0
 
-    def learn(self, N=100): 
-        for i in range(N): # Run through the maze N times
+    def learn_bayesian(self, n_runs=100): 
+        for i in range(n_runs): # Run through the maze N times
+            self.position = self.environment.start_pos # Reset position
             position_history, sa_history, posterior_history  = self.run_maze()
 
             self.update_qtable(sa_history)
-            self.update_likelihood(posterior_history)
+            self.update_likelihood(posterior_history, sa_history)
+
+            print(f'{i+1}/{n_runs} runs complete')
+            print(f'Steps taken: {len(position_history)}')
             # TODO: implement bayesian stuff...
+
+        return position_history
+
+    def learn_qtable(self, n_runs=10): 
+        for i in range(n_runs): # Run through the maze N times
+            self.position = self.environment.start_pos # Reset position
+            position_history, sa_history  = self.run_maze_qtable()
+            self.update_qtable(sa_history)
+
+            print(len(position_history))
+            print(f'{i+1}/{n_runs} runs complete')
+
+        return position_history
+    
     def update_prior(self, action):
 
         spread_factor = constants.confusion
@@ -51,17 +69,6 @@ class Bayegent:
         # plt.pause(0.5)
         # plt.clf()
 
-
-    def learn_qtable(self, n_runs=10): 
-        for i in range(n_runs): # Run through the maze N times
-            self.position = self.environment.start_pos # Reset position
-            position_history, sa_history  = self.run_maze_qtable()
-            self.update_qtable(sa_history)
-
-            print(len(position_history))
-            print(f'{i+1}/{n_runs} runs complete')
-
-        return position_history
 
 
     def sense(self):
@@ -87,10 +94,16 @@ class Bayegent:
         elif action == 'D':
             self.position = (r+1, c)
 
-    def get_posterior(self, sensor_state):
+    def update_posterior(self, sensor_state):
         '''
         Given a sensor state, returns the distribution over positions in the maze
         '''
+
+        if sensor_state not in self.likelihood:
+            self.likelihood[sensor_state] = np.ones(self.environment.dims) / np.prod(self.environment.dims) # Init as uniform distribution
+
+        self.posterior = self.likelihood[sensor_state] * self.prior
+
         # Prior over the positions in the maze
 
         # Likelihood over all possible sensor states 
@@ -109,8 +122,6 @@ class Bayegent:
         # First time, the likelihood is uniform...
         # We update the likelihood between maze runs by taking the 
 
-        # 
-        return []
 
     def take_random_action(self):
         action_space = ['U','D','L','R']
@@ -163,12 +174,11 @@ class Bayegent:
         
         reward_for_action = {a: 0 for a in action_space}
 
-        # TODO: make the reward weighted sums over all the positions in the posterior
-        #   i.e. For each position in the posterior... 
-        for action in action_space:
-            sa_pair = (sensor_state, action)
-            if sa_pair in self.qtable:
-                reward_for_action[action] += self.qtable[sa_pair]
+        for (r,c), _ in np.ndenumerate(posterior_distribution): # For each position in the posterior... 
+            for action in action_space:
+                sa_pair = (sensor_state, action)
+                if sa_pair in self.qtable:
+                    reward_for_action[action] += self.qtable[sa_pair] * posterior_distribution[r,c] # Weight reward by posterior
 
         # With probability 1-curiosity, pick the action with the highest reward
         if random.random() < (1-self.curiosity):
@@ -184,11 +194,11 @@ class Bayegent:
 
 
     def take_bayesian_action(self, sensor_state):
-        posterior_distribution = self.get_posterior(sensor_state)
+        self.update_posterior(sensor_state)
 
-        action = self.take_qtable_action(sensor_state, posterior_distribution)
+        action = self.take_qtable_weighted_action(sensor_state, self.posterior)
 
-        return posterior_distribution, action
+        return self.posterior, action
 
     def run_maze_qtable(self):
         '''
@@ -228,7 +238,7 @@ class Bayegent:
 
         position_history.append(self.environment.end_pos)
 
-        return position_history, sa_history, posterior_history
+        return position_history, sa_history, np.array(posterior_history)
 
 
     # def update_qtable(self, sa_history, position_history):
@@ -280,8 +290,25 @@ class Bayegent:
             
 
 
-    def update_likelihood(self, posterior_history):
-        return self.likelihood
+    def update_likelihood(self, posterior_history, sa_history):
+        assert len(posterior_history) == len(sa_history)
+        unique_sensations = np.unique([sa[0] for sa in sa_history], axis=0)
+        unique_sensations = [tuple(s) for s in unique_sensations]
+
+        for s in unique_sensations:
+            # print(tuple(s), sa_history[0][0])
+            # for i, sa in enumerate(sa_history):
+            #     print(tuple(s), sa[0])
+            #     if sa[0] == tuple(s):
+            #         self.likelihood[s] += posterior_history[i]
+
+            # self.likelihood[s] # Current likelihood for a given sensor state
+            # print([posterior_history[i] for i, sa in enumerate(sa_history)])
+            self.likelihood[s] = np.sum([posterior_history[i] for i, sa in enumerate(sa_history) if sa[0] == s], axis=0) # Sum over all the posteriors where we experienced the same sensation
+        
+            self.likelihood[s] /= np.sum(self.likelihood[s]) # Normalize to sum to 1
+
+        
 
 
 

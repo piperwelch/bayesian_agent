@@ -19,10 +19,11 @@ class GridMazeEnvironment:
         self.random_maze_generation()
         self.height = np.array(self.grid).shape[0]
         self.width = np.array(self.grid).shape[1]
+        self.dims = (self.height, self.width)
 
     def random_maze_generation(self):
-        maze_dim_x = 3
-        maze_dim_y = 3
+        maze_dim_x = 6
+        maze_dim_y = 6
 
         m = Maze()
         m.set_seed(self.seed)
