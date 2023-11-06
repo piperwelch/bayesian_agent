@@ -11,9 +11,7 @@ class Bayegent:
         np.random.seed(seed)
         self.environment = environment
         
-        self.prior = np.zeros((environment.height, environment.width))
-        self.prior[self.environment.start_pos[0], self.environment.start_pos[1]] = 1 #100% chance we are at the beginning 
-
+        self.reset_prior()
         self.posterior = np.zeros((environment.height, environment.width))
         self.likelihood = {} # Dictionary of sensations to position distributions 
 
@@ -25,8 +23,7 @@ class Bayegent:
 
     def learn_bayesian(self, n_runs=100): 
         for i in range(n_runs): # Run through the maze N times
-            self.position = self.environment.start_pos # Reset position
-            position_history, sa_history, posterior_history  = self.run_maze()
+            position_history, sa_history, posterior_history  = self.run_maze_bayesian(i)
 
             self.update_qtable(sa_history)
             self.update_likelihood(posterior_history, sa_history)
@@ -47,6 +44,10 @@ class Bayegent:
             print(f'{i+1}/{n_runs} runs complete')
 
         return position_history
+
+    def reset_prior(self):
+        self.prior = np.zeros((self.environment.height, self.environment.width))
+        self.prior[self.environment.start_pos] = 1 # Reset prior 
     
     def update_prior(self, action):
 
@@ -63,11 +64,6 @@ class Bayegent:
 
         self.prior = convolve(self.prior, spread_kernel, mode='constant', cval=0)
         self.prior = self.prior/np.sum(self.prior)
-
-        # plt.imshow(self.prior, cmap='viridis') 
-        # plt.scatter(self.position[1], self.position[0], color = 'red', alpha = 0.2)
-        # plt.pause(0.5)
-        # plt.clf()
 
 
 
@@ -103,24 +99,6 @@ class Bayegent:
             self.likelihood[sensor_state] = np.ones(self.environment.dims) / np.prod(self.environment.dims) # Init as uniform distribution
 
         self.posterior = self.likelihood[sensor_state] * self.prior
-
-        # Prior over the positions in the maze
-
-        # Likelihood over all possible sensor states 
-        # (probability of observing this sensor state given the current world model...)
-
-        # Likelihood =
-        # for each position:
-        #   prob of the sensor state? <-- uniform at first 
-
-        # For each timestep, we have a most probable position. 
-
-        # Posterior = 
-        # for each position in the prior:
-        #   multiply by the likelihood of current sensory state
-        
-        # First time, the likelihood is uniform...
-        # We update the likelihood between maze runs by taking the 
 
 
     def take_random_action(self):
@@ -160,7 +138,6 @@ class Bayegent:
             action = np.random.choice(action_space)
         
         self.update_position_from_action(action)
-        self.update_prior(action)
         return action
 
     def take_qtable_weighted_action(self, sensor_state, posterior_distribution):
@@ -194,8 +171,6 @@ class Bayegent:
 
 
     def take_bayesian_action(self, sensor_state):
-        self.update_posterior(sensor_state)
-
         action = self.take_qtable_weighted_action(sensor_state, self.posterior)
 
         return self.posterior, action
@@ -219,10 +194,13 @@ class Bayegent:
 
         return position_history, sa_history
 
-    def run_maze(self):
+    def run_maze_bayesian(self, run=0):
         '''
         Run the maze once with the current likelihood distribution and QTable (Bayesian + RL)
         '''
+        self.position = self.environment.start_pos # Reset position
+        self.reset_prior()
+
         position_history = []
         sa_history = []
         posterior_history = []
@@ -230,26 +208,26 @@ class Bayegent:
         while self.position != self.environment.end_pos:
             position_history.append(self.position)
 
-            sensor_state = self.sense()
-            posterior_distribution, action = self.take_bayesian_action(sensor_state)
+            sensor_state = self.sense()         
             
+            self.update_posterior(sensor_state)
+
+            # print(self.prior, self.position)
+            # plt.imshow(self.prior, cmap='viridis') 
+            # plt.scatter(self.position[1], self.position[0], color = 'red', alpha = 0.2)
+            # plt.pause(0.5)
+            # plt.clf()
+
+            posterior_distribution, action = self.take_bayesian_action(sensor_state)
+
+            self.update_prior(action) # shift n smear
+
             posterior_history.append(posterior_distribution)
             sa_history.append((sensor_state, action))
 
         position_history.append(self.environment.end_pos)
 
         return position_history, sa_history, np.array(posterior_history)
-
-
-    # def update_qtable(self, sa_history, position_history):
-    #     rewards = np.linspace(0, 1, len(sa_history))
-    #     for i, sa_pair in enumerate(sa_history):
-    #         # if i % 50 == 0:
-    #             # print(f'{i}/{len(sa_history)} SA pairs updated...')
-    #         if sa_pair in self.qtable:
-    #             self.qtable[sa_pair] += rewards[i]
-    #         else:
-    #             self.qtable[sa_pair] = rewards[i]
 
     def update_qtable(self, state_action_list, alpha=0.5, gamma=0.8): # Written by ChatGPT
         """

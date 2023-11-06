@@ -17,13 +17,14 @@ class GridMazeEnvironment:
         self.seed = seed 
         #self.read_maze_from_file(maze_file)
         self.random_maze_generation()
+        # self.generate_maze()
         self.height = np.array(self.grid).shape[0]
         self.width = np.array(self.grid).shape[1]
         self.dims = (self.height, self.width)
 
     def random_maze_generation(self):
-        maze_dim_x = 6
-        maze_dim_y = 6
+        maze_dim_x = 4
+        maze_dim_y = 4
 
         m = Maze()
         m.set_seed(self.seed)
@@ -111,7 +112,7 @@ class GridMazeEnvironment:
         ax.set_xlim(0, M)
         ax.set_ylim(0, N)
         ax.set_aspect('equal')
-        plt.gca().invert_yaxis()  # to match the row-column indexing
+        # plt.gca().invert_yaxis()  # to match the row-column indexing
 
         def init():
             agent_square.set_xy((0, 0))
