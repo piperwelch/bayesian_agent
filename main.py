@@ -4,13 +4,16 @@ import argparse
 from bayegent import Bayegent
 from environment import GridMazeEnvironment
 
+
 parser = argparse.ArgumentParser()
-parser.add_argument('--n_runs', type=int, default=10, help='Number of maze runs for Bayegent')
+parser.add_argument('--n_runs', type=int, default=10, help='Number of maze runs for Bayegent. n > 0')
 parser.add_argument('--seed', type=int, default=0, help='Seed for RNG')
-parser.add_argument('--vis', type=bool, default=True, help='Boolean, visualize the maze run')
+parser.add_argument("--vis", action="store_true", help="A boolean flag for visualizing") #have to do this to make booleans work 
 parser.add_argument('--gif_name', type=str, default='maze_trace', help='Name for saved file of maze run')
 
 args = parser.parse_args()
+
+assert args.n_runs > 0, "n_runs larger must be larger than 0"
 
 if __name__ == '__main__':
     environment = GridMazeEnvironment(args.seed)
