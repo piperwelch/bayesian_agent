@@ -3,6 +3,7 @@ import random
 import matplotlib.pyplot as plt 
 from scipy.ndimage import convolve
 import constants 
+from collections import Counter
 
 
 class Bayegent:
@@ -66,7 +67,6 @@ class Bayegent:
         self.prior = self.prior/np.sum(self.prior)
 
 
-
     def sense(self):
         left_sensor = self.environment.get_distance_to_wall(self.position, 'L')
         right_sensor = self.environment.get_distance_to_wall(self.position, 'R')
@@ -99,6 +99,7 @@ class Bayegent:
             self.likelihood[sensor_state] = np.ones(self.environment.dims) / np.prod(self.environment.dims) # Init as uniform distribution
 
         self.posterior = self.likelihood[sensor_state] * self.prior
+        self.posterior /= np.sum(self.posterior) # Normalize
 
 
     def take_random_action(self):
@@ -173,7 +174,7 @@ class Bayegent:
     def take_bayesian_action(self, sensor_state):
         action = self.take_qtable_weighted_action(sensor_state, self.posterior)
 
-        return self.posterior, action
+        return action
 
     def run_maze_qtable(self):
         '''
@@ -208,22 +209,36 @@ class Bayegent:
         while self.position != self.environment.end_pos:
             position_history.append(self.position)
 
-            sensor_state = self.sense()         
-            
-            self.update_posterior(sensor_state)
+            sensor_state = self.sense()
+            self.update_posterior(sensor_state) # Multiply prior by likelihood
 
-            # print(self.prior, self.position)
-            # plt.imshow(self.prior, cmap='viridis') 
-            # plt.scatter(self.position[1], self.position[0], color = 'red', alpha = 0.2)
-            # plt.pause(0.5)
-            # plt.clf()
+            if run == 9: # Visualize Likelihood
+                # print(self.likelihood[sensor_state], self.position)
+                fig, axs = plt.subplots(1,3, figsize=(15,5))
 
-            posterior_distribution, action = self.take_bayesian_action(sensor_state)
+                axs[0].imshow(self.likelihood[sensor_state], cmap='viridis')
+                axs[0].scatter(self.position[1], self.position[0], color = 'red', alpha = 0.2)
+                axs[0].set_title('Likelihood')
 
-            self.update_prior(action) # shift n smear
+                axs[1].imshow(self.prior, cmap='viridis')
+                axs[1].scatter(self.position[1], self.position[0], color = 'red', alpha = 0.2)
+                axs[1].set_title('Prior')
 
-            posterior_history.append(posterior_distribution)
-            sa_history.append((sensor_state, action))
+                axs[2].imshow(self.posterior, cmap='viridis') 
+                axs[2].scatter(self.position[1], self.position[0], color = 'red', alpha = 0.2)
+                axs[2].set_title('Posterior')
+
+                plt.suptitle(f'({self.position})')
+                # plt.imshow(self.prior, cmap='viridis') 
+                plt.pause(0.5)
+                plt.clf()
+
+            action = self.take_bayesian_action(sensor_state) # Take the action using the current posterior
+
+            self.update_prior(action) # Update prior after the action (shift n smear)
+
+            posterior_history.append(self.posterior)
+            sa_history.append((sensor_state, action))   
 
         position_history.append(self.environment.end_pos)
 
@@ -266,6 +281,11 @@ class Bayegent:
             # Update the next_max_q_value for the next iteration
             next_max_q_value = np.max([self.qtable[sa] for sa in self.qtable.keys() if sa[0] == sa_pair[0]])
             
+    def get_distribution_mode(self, distribution):
+        # Find the index of the maximum value in the 2d array
+        max_index = np.unravel_index(np.argmax(distribution), distribution.shape)
+        # max_index is a tuple (row, col)
+        return max_index
 
 
     def update_likelihood(self, posterior_history, sa_history):
@@ -274,18 +294,18 @@ class Bayegent:
         unique_sensations = [tuple(s) for s in unique_sensations]
 
         for s in unique_sensations:
-            # print(tuple(s), sa_history[0][0])
-            # for i, sa in enumerate(sa_history):
-            #     print(tuple(s), sa[0])
-            #     if sa[0] == tuple(s):
-            #         self.likelihood[s] += posterior_history[i]
+            # Get the unique modes
+            posteriors = [posterior_history[i] for i, sa in enumerate(sa_history) if sa[0] == s]
+            all_modes_s = Counter([self.get_distribution_mode(post) for post in posteriors])
+            unique_modes = list(all_modes_s)
 
-            # self.likelihood[s] # Current likelihood for a given sensor state
-            # print([posterior_history[i] for i, sa in enumerate(sa_history)])
-            self.likelihood[s] = np.sum([posterior_history[i] for i, sa in enumerate(sa_history) if sa[0] == s], axis=0) # Sum over all the posteriors where we experienced the same sensation
-        
-            self.likelihood[s] /= np.sum(self.likelihood[s]) # Normalize to sum to 1
+            likelihood = np.zeros(posteriors[0].shape)
 
+            for mode in unique_modes:
+                post_sum = np.sum([post for post in posteriors if self.get_distribution_mode(post) == mode], axis=0)
+                likelihood += post_sum / all_modes_s[mode] 
+            
+            self.likelihood[s] = likelihood / len(unique_modes)
         
 
 
