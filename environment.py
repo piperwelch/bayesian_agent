@@ -23,8 +23,8 @@ class GridMazeEnvironment:
         self.dims = (self.height, self.width)
 
     def random_maze_generation(self):
-        maze_dim_x = 4
-        maze_dim_y = 4
+        maze_dim_x = 5
+        maze_dim_y = 5
 
         m = Maze()
         m.set_seed(self.seed)
@@ -32,6 +32,7 @@ class GridMazeEnvironment:
         m.generate()
         self.grid = m.grid
         m._generate_inner_entrances()
+        # m._generate_outer_entrances()
 
         self.start_pos, self.end_pos = m.start, m.end
 
