@@ -5,7 +5,8 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from mazelib import Maze
 from mazelib.generate.Prims import Prims
-
+from queue import Queue
+from mazelib.generate.CellularAutomaton import CellularAutomaton
 
 class GridMazeEnvironment:
     def __init__(self, seed, maze_file = "maze.txt"):
@@ -23,19 +24,81 @@ class GridMazeEnvironment:
         self.dims = (self.height, self.width)
 
     def random_maze_generation(self):
-        maze_dim_x = 5
-        maze_dim_y = 5
+        maze_dim_x = 3
+        maze_dim_y = 3
 
         m = Maze()
         m.set_seed(self.seed)
-        m.generator = Prims(maze_dim_x, maze_dim_y)
+        m.generator = CellularAutomaton(maze_dim_x, maze_dim_y)
+
         m.generate()
+        maze = m.grid
+
+
+        low = max(0, maze.shape[0]//2-1)
+        high = min(maze.shape[0], maze.shape[0]//2+1)
+        maze[ low:high, low:high ] = 0
+
+        # must the size of the maze to make room for larger coridors 
+        #this code inspired by code from caitlin 
+        maze_dim_expanded = maze.shape[0] * 2
+
+        maze = np.repeat(maze, 2).reshape(-1, maze_dim_expanded)
+        maze = maze.T
+        maze = np.repeat(maze, 2).reshape(-1, maze_dim_expanded)
+
+        new_maze = np.copy(maze)
+        for i in range(maze_dim_expanded):
+            for j in range(maze_dim_expanded):
+                if maze[i,j] == 0:
+                    for a in range(-1,1):
+                        if 0<i+a<maze_dim_expanded:
+                            new_maze[i+a,j] = 0
+                        if 0<j+a<maze_dim_expanded:
+                            new_maze[i,j+a] = 0
+        maze = new_maze.copy()
+        m.grid = maze.copy()
         self.grid = m.grid
-        m._generate_inner_entrances()
-        # m._generate_outer_entrances()
 
-        self.start_pos, self.end_pos = m.start, m.end
+        self.start_pos, self.end_pos = self.find_farthest_points(self.grid)
 
+
+    def is_valid(self, maze, x, y):
+        return 0 <= x < len(maze) and 0 <= y < len(maze[0]) and maze[x][y] == 0
+
+    def bfs(self, maze, start):
+        visited = [[False] * len(maze[0]) for _ in range(len(maze))]
+        queue = Queue()
+        queue.put(start)
+        print(start)
+        visited[start[0]][start[1]] = True
+        last_visited = None
+
+        while not queue.empty():
+            current = queue.get()
+            x, y = current
+
+            neighbors = [(x - 1, y), (x + 1, y), (x, y - 1), (x, y + 1)]
+            for neighbor in neighbors:
+                nx, ny = neighbor
+                if self.is_valid(maze, nx, ny) and not visited[nx][ny]:
+                    queue.put((nx, ny))
+                    visited[nx][ny] = True
+                    last_visited = (nx, ny)
+
+        return last_visited
+
+    def find_farthest_points(self, maze):
+        start = (3, 5)
+        farthest_point_from_start = self.bfs(maze, start)
+        new_start = self.bfs(maze, farthest_point_from_start)
+        end = self.bfs(maze, new_start)
+        N = self.grid.shape[0]
+        start_row_column = (start[0], N - start[1] - 1)
+        end_row_column = (end[0], N - end[1] - 1)
+
+        return start_row_column, end_row_column #which should this me 
+        #return new_start, end
 
     def read_maze_from_file(self, file_path):
         maze = []
