@@ -212,26 +212,26 @@ class Bayegent:
             sensor_state = self.sense()
             self.update_posterior(sensor_state) # Multiply prior by likelihood
 
-            if run == 9: # Visualize Likelihood
-                # print(self.likelihood[sensor_state], self.position)
-                fig, axs = plt.subplots(1,3, figsize=(15,5))
+            # if run == 9: # Visualize Likelihood
+            #     # print(self.likelihood[sensor_state], self.position)
+            #     fig, axs = plt.subplots(1,3, figsize=(15,5))
 
-                axs[0].imshow(self.likelihood[sensor_state], cmap='viridis')
-                axs[0].scatter(self.position[1], self.position[0], color = 'red', alpha = 0.2)
-                axs[0].set_title('Likelihood')
+            #     axs[0].imshow(self.likelihood[sensor_state], cmap='viridis')
+            #     axs[0].scatter(self.position[1], self.position[0], color = 'red', alpha = 0.2)
+            #     axs[0].set_title('Likelihood')
 
-                axs[1].imshow(self.prior, cmap='viridis')
-                axs[1].scatter(self.position[1], self.position[0], color = 'red', alpha = 0.2)
-                axs[1].set_title('Prior')
+            #     axs[1].imshow(self.prior, cmap='viridis')
+            #     axs[1].scatter(self.position[1], self.position[0], color = 'red', alpha = 0.2)
+            #     axs[1].set_title('Prior')
 
-                axs[2].imshow(self.posterior, cmap='viridis') 
-                axs[2].scatter(self.position[1], self.position[0], color = 'red', alpha = 0.2)
-                axs[2].set_title('Posterior')
+            #     axs[2].imshow(self.posterior, cmap='viridis') 
+            #     axs[2].scatter(self.position[1], self.position[0], color = 'red', alpha = 0.2)
+            #     axs[2].set_title('Posterior')
 
-                plt.suptitle(f'({self.position})')
-                # plt.imshow(self.prior, cmap='viridis') 
-                plt.pause(0.5)
-                plt.clf()
+            #     plt.suptitle(f'({self.position})')
+            #     # plt.imshow(self.prior, cmap='viridis') 
+            #     plt.pause(0.5)
+            #     plt.clf()
 
             action = self.take_bayesian_action(sensor_state) # Take the action using the current posterior
 
