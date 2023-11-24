@@ -10,13 +10,14 @@ parser.add_argument('--n_runs', type=int, default=10, help='Number of maze runs 
 parser.add_argument('--seed', type=int, default=0, help='Seed for RNG')
 parser.add_argument("--vis", action="store_true", help="A boolean flag for visualizing") #have to do this to make booleans work 
 parser.add_argument('--gif_name', type=str, default='maze_trace', help='Name for saved file of maze run')
+parser.add_argument('--show_maze', action="store_true", help='A boolean flag for showing the maze before running the learning algorithm')
 
 args = parser.parse_args()
 
 assert args.n_runs > 0, "n_runs larger must be larger than 0"
 
 exp_parameters = {
-    'curiosity': 0.4,
+    'curiosity': 0.7,
     'step_reward': -0.1,
     'goal_reward': 1,
     'learning_rate': 0.5,
@@ -25,7 +26,10 @@ exp_parameters = {
 
 if __name__ == '__main__':
     environment = GridMazeEnvironment(args.seed)
-    agent = Bayegent(environment, args.seed)
+    agent = Bayegent(environment, args.seed, parameters=exp_parameters)
+
+    if args.show_maze:
+        environment.show_maze()
 
     # position_history = agent.learn_qtable(n_runs=args.n_runs)
     position_history = agent.learn_bayesian(n_runs=args.n_runs)

@@ -93,12 +93,8 @@ class GridMazeEnvironment:
         farthest_point_from_start = self.bfs(maze, start)
         new_start = self.bfs(maze, farthest_point_from_start)
         end = self.bfs(maze, new_start)
-        N = self.grid.shape[0]
-        start_row_column = (start[0], N - start[1] - 1)
-        end_row_column = (end[0], N - end[1] - 1)
 
-        return start_row_column, end_row_column #which should this me 
-        #return new_start, end
+        return new_start, end
 
     def read_maze_from_file(self, file_path):
         maze = []
@@ -156,6 +152,30 @@ class GridMazeEnvironment:
                 c -= 1
 
         return distance
+
+    def show_maze(self):
+        N, M = len(self.grid), len(self.grid[0])
+        fig, ax = plt.subplots(figsize=(M, N))
+
+        # Draw grid based on 0s (walkable) and 1s (walls)
+        for r in range(N):
+            for c in range(M):
+                color = 'white' if self.grid[r][c] == 0 else 'black'
+                if r == self.end_pos[0] and c == self.end_pos[1]: 
+                    color = 'pink'
+                ax.add_patch(patches.Rectangle((c, N-r-1), 1, 1, facecolor=color, edgecolor='black'))
+
+        ax.set_xticks(range(M+1))
+        ax.set_yticks(range(N+1))
+        ax.set_xlim(0, M)
+        ax.set_ylim(0, N)
+        ax.set_aspect('equal')
+
+        agent_square = patches.Rectangle((0, 0), 1, 1, facecolor='red')  # Initialize agent square
+        agent_square.set_xy((self.start_pos[1], N-self.start_pos[0]-1))
+        ax.add_patch(agent_square)
+
+        plt.show()
 
     def visualize_agent_trajectory(self, position_history, file_name):
         N, M = len(self.grid), len(self.grid[0])
