@@ -15,6 +15,14 @@ args = parser.parse_args()
 
 assert args.n_runs > 0, "n_runs larger must be larger than 0"
 
+exp_parameters = {
+    'curiosity': 0.4,
+    'step_reward': -0.1,
+    'goal_reward': 1,
+    'learning_rate': 0.5,
+    'discount_factor': 0.8,
+}
+
 if __name__ == '__main__':
     environment = GridMazeEnvironment(args.seed)
     agent = Bayegent(environment, args.seed)

@@ -7,17 +7,23 @@ from collections import Counter
 
 
 class Bayegent:
-    def __init__(self, environment, seed):
-        random.seed(seed)
-        np.random.seed(seed)
+    def __init__(self, environment, seed, parameters):
         self.environment = environment
         
+        random.seed(seed)
+        np.random.seed(seed)
+
+        self.curiosity = parameters['curiosity']
+        self.step_reward = parameters['step_reward']
+        self.goal_reward = parameters['goal_reward']
+        self.learning_rate = parameters['learning_rate']
+        self.discount_factor = parameters['discount_factor']
+
         self.reset_prior()
         self.posterior = np.zeros((environment.height, environment.width))
         self.likelihood = {} # Dictionary of sensations to position distributions 
 
         self.qtable = {}
-        self.curiosity = constants.curosity
 
         self.position = self.environment.start_pos
         assert self.environment.grid[self.position] == 0
@@ -244,7 +250,7 @@ class Bayegent:
 
         return position_history, sa_history, np.array(posterior_history)
 
-    def update_qtable(self, state_action_list, alpha=0.5, gamma=0.8): # Written by ChatGPT
+    def update_qtable(self, state_action_list): # Written by ChatGPT
         """
         Update the Q-table based on a list of state, action tuples.
         
@@ -258,23 +264,19 @@ class Bayegent:
         - Updated Q-table.
         """
         
-        # Define rewards
-        step_reward = -0.1
-        goal_reward = 1.0
-        
         # Iterate backwards through the state-action list
         next_max_q_value = 0  # since there's no next state after reaching the goal
         
         for i, sa_pair in enumerate(reversed(state_action_list)):
             if i == 0:  # Check if it's the goal state
-                reward = goal_reward
+                reward = self.goal_reward
             else:
-                reward = step_reward
+                reward = self.step_reward
             
             # Q-learning update rule
             if sa_pair in self.qtable:
                 current_q_value = self.qtable[sa_pair]
-                self.qtable[sa_pair] = (1 - alpha) * current_q_value + alpha * (reward + gamma * next_max_q_value)
+                self.qtable[sa_pair] = (1 - self.learning_rate) * current_q_value + self.learning_rate * (reward + self.discount_factor * next_max_q_value)
             else:
                 self.qtable[sa_pair] = reward 
 
