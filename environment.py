@@ -70,7 +70,7 @@ class GridMazeEnvironment:
         visited = [[False] * len(maze[0]) for _ in range(len(maze))]
         queue = Queue()
         queue.put(start)
-        print(start)
+
         visited[start[0]][start[1]] = True
         last_visited = None
 
@@ -97,8 +97,8 @@ class GridMazeEnvironment:
         start_row_column = (start[0], N - start[1] - 1)
         end_row_column = (end[0], N - end[1] - 1)
 
-        return start_row_column, end_row_column #which should this me 
-        #return new_start, end
+        #return start_row_column, end_row_column #which should this me 
+        return new_start, end
 
     def read_maze_from_file(self, file_path):
         maze = []

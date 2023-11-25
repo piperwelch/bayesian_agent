@@ -4,10 +4,11 @@ import matplotlib.pyplot as plt
 from scipy.ndimage import convolve
 import constants 
 from collections import Counter
-
+from shortest_path import shortest_path 
 
 class Bayegent:
-    def __init__(self, environment, seed):
+    def __init__(self, environment, seed, curiosity, confusion):
+        self.seed = seed
         random.seed(seed)
         np.random.seed(seed)
         self.environment = environment
@@ -17,12 +18,15 @@ class Bayegent:
         self.likelihood = {} # Dictionary of sensations to position distributions 
 
         self.qtable = {}
-        self.curiosity = constants.curosity
-
+        self.curiosity = curiosity
+        self.confusion = confusion
         self.position = self.environment.start_pos
+        self.shortest_path_possible = shortest_path(self.environment.grid, self.environment.start_pos, self.environment.end_pos)
         assert self.environment.grid[self.position] == 0
 
     def learn_bayesian(self, n_runs=100): 
+        f = open(f"data/seed_{self.seed}_curosity_{self.curiosity}_confusion_{self.confusion}.csv", "a")
+        f.write("run,path_length\n")
         for i in range(n_runs): # Run through the maze N times
             position_history, sa_history, posterior_history  = self.run_maze_bayesian(i)
 
@@ -30,9 +34,12 @@ class Bayegent:
             self.update_likelihood(posterior_history, sa_history)
 
             print(f'{i+1}/{n_runs} runs complete')
-            print(f'Steps taken: {len(position_history)}')
+            
+            print(f'Steps taken: {len(position_history)}, distance from shortest path {len(position_history) - self.shortest_path_possible}')
+            
+            f.write(f"{i},{len(position_history)}\n")
             # TODO: implement bayesian stuff...
-
+        f.close()
         return position_history
 
     def learn_qtable(self, n_runs=10): 
@@ -52,7 +59,7 @@ class Bayegent:
     
     def update_prior(self, action):
 
-        spread_factor = constants.confusion
+        spread_factor = self.confusion
 
         direction_to_kernel = {
         "U": np.array([[0, spread_factor, 0], [0, 1 - spread_factor, 0], [0, 0, 0]]),
