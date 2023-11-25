@@ -1,4 +1,4 @@
 *.gif 
 __pycache__
 *.ipynb
-data/*
+data*
