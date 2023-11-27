@@ -28,22 +28,26 @@ class Bayegent:
         self.position = self.environment.start_pos
         assert self.environment.grid[self.position] == 0
 
-    def learn_bayesian(self, n_runs=100): 
+    def learn_bayesian(self, n_runs=100, debug=False): 
+        assert len(self.curiosity) == n_runs
+
+        all_position_histories = []
         for i in range(n_runs): # Run through the maze N times
             position_history, sa_history, posterior_history  = self.run_maze_bayesian(i)
 
             self.update_qtable(sa_history)
             self.update_likelihood(posterior_history, sa_history)
 
-            print(f'{i+1}/{n_runs} runs complete')
-            print(f'Steps taken: {len(position_history)}')
-            # TODO: implement bayesian stuff...
+            all_position_histories.append(position_history)
 
-        return position_history
+            if debug:
+                print(f'{i+1}/{n_runs} runs complete')
+                print(f'Steps taken: {len(position_history)}')
+
+        return all_position_histories
 
     def learn_qtable(self, n_runs=10): 
         for i in range(n_runs): # Run through the maze N times
-            self.position = self.environment.start_pos # Reset position
             position_history, sa_history  = self.run_maze_qtable()
             self.update_qtable(sa_history)
 
@@ -120,7 +124,7 @@ class Bayegent:
         return action
 
 
-    def take_qtable_action(self, sensor_state):
+    def take_qtable_action(self, sensor_state, curiosity):
         '''
         Take an unweighted reward-based action
         '''
@@ -147,7 +151,7 @@ class Bayegent:
         self.update_position_from_action(action)
         return action
 
-    def take_qtable_weighted_action(self, sensor_state, posterior_distribution):
+    def take_qtable_weighted_action(self, sensor_state, posterior_distribution, curiosity):
         '''
         Take a reward-based action weighted with the posterior
         '''
@@ -165,7 +169,7 @@ class Bayegent:
                     reward_for_action[action] += self.qtable[sa_pair] * posterior_distribution[r,c] # Weight reward by posterior
 
         # With probability 1-curiosity, pick the action with the highest reward
-        if random.random() < (1-self.curiosity):
+        if random.random() < (1-curiosity):
             max_reward = max(reward_for_action.values())
             possible_best_actions = [a for a in action_space if reward_for_action[a] == max_reward]
             action = np.random.choice(possible_best_actions)
@@ -177,8 +181,8 @@ class Bayegent:
         return action
 
 
-    def take_bayesian_action(self, sensor_state):
-        action = self.take_qtable_weighted_action(sensor_state, self.posterior)
+    def take_bayesian_action(self, sensor_state, curiosity):
+        action = self.take_qtable_weighted_action(sensor_state, self.posterior, curiosity)
 
         return action
 
@@ -186,6 +190,8 @@ class Bayegent:
         '''
         Run the maze once with the current QTable (only RL)
         '''
+        self.position = self.environment.start_pos # Reset position
+
         position_history = []
         sa_history = []
 
@@ -239,7 +245,7 @@ class Bayegent:
             #     plt.pause(0.5)
             #     plt.clf()
 
-            action = self.take_bayesian_action(sensor_state) # Take the action using the current posterior
+            action = self.take_bayesian_action(sensor_state, self.curiosity[run]) # Take the action using the current posterior
 
             self.update_prior(action) # Update prior after the action (shift n smear)
 
