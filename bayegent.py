@@ -28,7 +28,7 @@ class Bayegent:
         self.position = self.environment.start_pos
         assert self.environment.grid[self.position] == 0
 
-    def learn_bayesian(self, n_runs=100, debug=False): 
+    def learn_bayesian(self, n_runs=100, debug=True): 
         assert len(self.curiosity) == n_runs
 
         all_position_histories = []
@@ -41,20 +41,21 @@ class Bayegent:
             all_position_histories.append(position_history)
 
             if debug:
-                print(f'{i+1}/{n_runs} runs complete')
-                print(f'Steps taken: {len(position_history)}')
+                print(f'{i+1}/{n_runs} runs complete ({len(position_history)} steps)')
 
         return all_position_histories
 
-    def learn_qtable(self, n_runs=10): 
+    def learn_qtable(self, n_runs=10, debug=True): 
+        all_position_histories = []
         for i in range(n_runs): # Run through the maze N times
             position_history, sa_history  = self.run_maze_qtable()
             self.update_qtable(sa_history)
 
-            print(len(position_history))
-            print(f'{i+1}/{n_runs} runs complete')
+            all_position_histories.append(position_history)
+            if debug:
+                print(f'{i+1}/{n_runs} runs complete ({len(position_history)} steps)')
 
-        return position_history
+        return all_position_histories
 
     def reset_prior(self):
         self.prior = np.zeros((self.environment.height, self.environment.width))
@@ -141,7 +142,7 @@ class Bayegent:
                 reward_for_action[action] += self.qtable[sa_pair]
 
         # With probability (1-curiosity), pick the action with the highest reward
-        if random.random() < (1-self.curiosity):
+        if random.random() < (1-curiosity):
             max_reward = max(reward_for_action.values())
             possible_best_actions = [a for a in action_space if reward_for_action[a] == max_reward]
             action = np.random.choice(possible_best_actions)
@@ -186,7 +187,7 @@ class Bayegent:
 
         return action
 
-    def run_maze_qtable(self):
+    def run_maze_qtable(self, run=0):
         '''
         Run the maze once with the current QTable (only RL)
         '''
@@ -199,7 +200,7 @@ class Bayegent:
 
         while self.position != self.environment.end_pos:
             sensor_state = self.sense()
-            action = self.take_qtable_action(sensor_state)
+            action = self.take_qtable_action(sensor_state, self.curiosity[run])
             sa_history.append((sensor_state, action))
             position_history.append(self.position)
 
