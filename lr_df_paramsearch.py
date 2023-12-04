@@ -20,22 +20,24 @@ def run_one_seed(seed, parameters, n_runs=100):
 # Function to run one combination of lr and df
 def run_one_combination(curiosities, lr, df, n_runs=100):
     print(f'LR: {lr}, DF: {df}')
+    all_path_lengths = []
     start = time.time()
-    # for seed in range(50):
-    #     print(f'{seed}/50')
-    position_histories = run_one_seed(0, 
-                                        parameters={
-                                            'curiosity': curiosities,
-                                            'step_reward': -0.1,
-                                            'goal_reward': 1,
-                                            'learning_rate': lr,
-                                            'discount_factor': df,
-                                        },
-                                        n_runs=n_runs)
+    for seed in range(5):
+        print(f'{seed}/5')
+        position_histories = run_one_seed(seed,  # pos histories for 100 runs
+                                            parameters={
+                                                'curiosity': curiosities,
+                                                'step_reward': -0.1,
+                                                'goal_reward': 1,
+                                                'learning_rate': lr,
+                                                'discount_factor': df,
+                                            },
+                                            n_runs=n_runs)
+        path_lengths = [len(pl) for pl in position_histories]
+        all_path_lengths.append(path_lengths)
     end = time.time()
 
-    path_lengths = [len(pl) for pl in position_histories]
-    return lr, df, path_lengths, end-start
+    return lr, df, all_path_lengths, end-start
 
 def run_experiment(lr_interval, df_interval, curiosity_interval=(0.2,0.9), gridsize=10, n_runs=100):
     curiosities = list(reversed(np.linspace(curiosity_interval[0], curiosity_interval[1], n_runs)))
@@ -52,10 +54,10 @@ def run_experiment(lr_interval, df_interval, curiosity_interval=(0.2,0.9), grids
         futures = [executor.submit(run_one_combination, curiosities, lr, df) for lr in learning_rates for df in discount_factors]
 
         for future in concurrent.futures.as_completed(futures):
-            lr, df, path_lengths, run_time = future.result()
+            lr, df, all_path_lengths, run_time = future.result()
             running_times[lr][df] = run_time
-            last_path_lengths[lr][df] = path_lengths[-1]
-            min_path_lengths[lr][df] = min(path_lengths)
+            last_path_lengths[lr][df] = np.mean([pl[-1] for pl in all_path_lengths])
+            min_path_lengths[lr][df] = np.mean([min(pl) for pl in all_path_lengths])
 
     return last_path_lengths, min_path_lengths, running_times
 
