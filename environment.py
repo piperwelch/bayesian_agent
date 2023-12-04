@@ -70,7 +70,6 @@ class GridMazeEnvironment:
         visited = [[False] * len(maze[0]) for _ in range(len(maze))]
         queue = Queue()
         queue.put(start)
-        print(start)
         visited[start[0]][start[1]] = True
         last_visited = None
 
