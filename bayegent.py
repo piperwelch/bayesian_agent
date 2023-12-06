@@ -4,36 +4,44 @@ import matplotlib.pyplot as plt
 from scipy.ndimage import convolve
 import constants 
 from collections import Counter
+from PIL import Image
+import imageio
+import io
 
 
 class Bayegent:
     def __init__(self, environment, seed, parameters):
         self.environment = environment
         
+        # Set seed for randomness
         random.seed(seed)
         np.random.seed(seed)
 
+        # Extract experiment parameters
         self.curiosity = parameters['curiosity']
         self.step_reward = parameters['step_reward']
         self.goal_reward = parameters['goal_reward']
         self.learning_rate = parameters['learning_rate']
         self.discount_factor = parameters['discount_factor']
 
+        # Setup Bayesian data structures
         self.reset_prior()
         self.posterior = np.zeros((environment.height, environment.width))
         self.likelihood = {} # Dictionary of sensations to position distributions 
 
+        # Setup QTable for QLearning
         self.qtable = {}
 
         self.position = self.environment.start_pos
         assert self.environment.grid[self.position] == 0
 
-    def learn_bayesian(self, n_runs=100, debug=True): 
+    def learn_bayesian(self, n_runs=100, debug=True, vis=False): 
         assert len(self.curiosity) == n_runs
 
         all_position_histories = []
         for i in range(n_runs): # Run through the maze N times
-            position_history, sa_history, posterior_history  = self.run_maze_bayesian(i)
+            vis_last_run = vis and (i+1 == n_runs)
+            position_history, sa_history, posterior_history  = self.run_maze_bayesian(i, visualize_run=vis_last_run)
 
             self.update_qtable(sa_history)
             self.update_likelihood(posterior_history, sa_history)
@@ -208,7 +216,7 @@ class Bayegent:
 
         return position_history, sa_history
 
-    def run_maze_bayesian(self, run=0):
+    def run_maze_bayesian(self, run=0, visualize_run=None):
         '''
         Run the maze once with the current likelihood distribution and QTable (Bayesian + RL)
         '''
@@ -219,39 +227,29 @@ class Bayegent:
         sa_history = []
         posterior_history = []
 
-        while self.position != self.environment.end_pos:
-            position_history.append(self.position)
+        img_arrs = []
 
-            sensor_state = self.sense()
-            self.update_posterior(sensor_state) # Multiply prior by likelihood
+        step = 0
+        with imageio.get_writer('path_animation.gif', loop=0, mode='I', duration=0.5) as writer:
+            while self.position != self.environment.end_pos:
+                position_history.append(self.position)
 
-            # if run == 9: # Visualize Likelihood
-            #     # print(self.likelihood[sensor_state], self.position)
-            #     fig, axs = plt.subplots(1,3, figsize=(15,5))
+                sensor_state = self.sense()
 
-            #     axs[0].imshow(self.likelihood[sensor_state], cmap='viridis')
-            #     axs[0].scatter(self.position[1], self.position[0], color = 'red', alpha = 0.2)
-            #     axs[0].set_title('Likelihood')
+                self.update_posterior(sensor_state) # Multiply prior by likelihood
 
-            #     axs[1].imshow(self.prior, cmap='viridis')
-            #     axs[1].scatter(self.position[1], self.position[0], color = 'red', alpha = 0.2)
-            #     axs[1].set_title('Prior')
+                if visualize_run and step <= 30: # Visualize Likelihood
+                    img_arr = self.vis_run_frame(sensor_state, step)
+                    writer.append_data(img_arr)
 
-            #     axs[2].imshow(self.posterior, cmap='viridis') 
-            #     axs[2].scatter(self.position[1], self.position[0], color = 'red', alpha = 0.2)
-            #     axs[2].set_title('Posterior')
+                action = self.take_bayesian_action(sensor_state, self.curiosity[run]) # Take the action using the current posterior
 
-            #     plt.suptitle(f'({self.position})')
-            #     # plt.imshow(self.prior, cmap='viridis') 
-            #     plt.pause(0.5)
-            #     plt.clf()
+                self.update_prior(action) # Update prior after the action (shift n smear)
 
-            action = self.take_bayesian_action(sensor_state, self.curiosity[run]) # Take the action using the current posterior
+                posterior_history.append(self.posterior)
+                sa_history.append((sensor_state, action)) 
 
-            self.update_prior(action) # Update prior after the action (shift n smear)
-
-            posterior_history.append(self.posterior)
-            sa_history.append((sensor_state, action))   
+                step += 1  
 
         position_history.append(self.environment.end_pos)
 
@@ -315,6 +313,35 @@ class Bayegent:
                 likelihood += post_sum / all_modes_s[mode] 
             
             self.likelihood[s] = likelihood / len(unique_modes)
+
+    def vis_run_frame(self, sensor_state, step):
+        fig, axs = plt.subplots(1,3, figsize=(15,5))
+
+        axs[0].imshow(self.likelihood[sensor_state], cmap='viridis')
+        axs[0].scatter(self.position[1], self.position[0], color = 'red', alpha = 0.2)
+        axs[0].set_title('Likelihood')
+
+        axs[1].imshow(self.prior, cmap='viridis')
+        axs[1].scatter(self.position[1], self.position[0], color = 'red', alpha = 0.2)
+        axs[1].set_title('Prior')
+
+        axs[2].imshow(self.posterior, cmap='viridis') 
+        axs[2].scatter(self.position[1], self.position[0], color = 'red', alpha = 0.2)
+        axs[2].set_title('Posterior')
+
+        plt.suptitle(f'Position: {self.position}')
+        # print(sensor_state)
+        # if sensor_state == (1,1,7,3):
+        #     plt.imshow(self.likelihood[(1,1,7,3)], cmap='viridis') 
+        #     plt.show()
+
+        buf = io.BytesIO()
+        plt.savefig(buf, format='png')
+        plt.close(fig)
+        buf.seek(0)
+        img_arr = Image.open(buf)
+
+        return np.array(img_arr)
         
 
 
