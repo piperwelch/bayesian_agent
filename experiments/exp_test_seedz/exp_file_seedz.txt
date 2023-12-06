@@ -1,0 +1,2001 @@
+{'arm_seed0':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 0, 'n_runs': 100},
+'arm_seed1':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 1, 'n_runs': 100},
+'arm_seed2':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 2, 'n_runs': 100},
+'arm_seed3':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 3, 'n_runs': 100},
+'arm_seed4':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 4, 'n_runs': 100},
+'arm_seed5':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 5, 'n_runs': 100},
+'arm_seed6':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 6, 'n_runs': 100},
+'arm_seed7':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 7, 'n_runs': 100},
+'arm_seed8':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 8, 'n_runs': 100},
+'arm_seed9':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 9, 'n_runs': 100},
+'arm_seed10':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 10, 'n_runs': 100},
+'arm_seed11':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 11, 'n_runs': 100},
+'arm_seed12':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 12, 'n_runs': 100},
+'arm_seed13':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 13, 'n_runs': 100},
+'arm_seed14':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 14, 'n_runs': 100},
+'arm_seed15':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 15, 'n_runs': 100},
+'arm_seed16':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 16, 'n_runs': 100},
+'arm_seed17':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 17, 'n_runs': 100},
+'arm_seed18':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 18, 'n_runs': 100},
+'arm_seed19':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 19, 'n_runs': 100},
+'arm_seed20':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 20, 'n_runs': 100},
+'arm_seed21':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 21, 'n_runs': 100},
+'arm_seed22':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 22, 'n_runs': 100},
+'arm_seed23':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 23, 'n_runs': 100},
+'arm_seed24':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 24, 'n_runs': 100},
+'arm_seed25':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 25, 'n_runs': 100},
+'arm_seed26':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 26, 'n_runs': 100},
+'arm_seed27':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 27, 'n_runs': 100},
+'arm_seed28':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 28, 'n_runs': 100},
+'arm_seed29':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 29, 'n_runs': 100},
+'arm_seed30':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 30, 'n_runs': 100},
+'arm_seed31':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 31, 'n_runs': 100},
+'arm_seed32':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 32, 'n_runs': 100},
+'arm_seed33':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 33, 'n_runs': 100},
+'arm_seed34':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 34, 'n_runs': 100},
+'arm_seed35':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 35, 'n_runs': 100},
+'arm_seed36':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 36, 'n_runs': 100},
+'arm_seed37':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 37, 'n_runs': 100},
+'arm_seed38':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 38, 'n_runs': 100},
+'arm_seed39':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 39, 'n_runs': 100},
+'arm_seed40':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 40, 'n_runs': 100},
+'arm_seed41':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 41, 'n_runs': 100},
+'arm_seed42':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 42, 'n_runs': 100},
+'arm_seed43':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 43, 'n_runs': 100},
+'arm_seed44':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 44, 'n_runs': 100},
+'arm_seed45':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 45, 'n_runs': 100},
+'arm_seed46':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 46, 'n_runs': 100},
+'arm_seed47':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 47, 'n_runs': 100},
+'arm_seed48':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 48, 'n_runs': 100},
+'arm_seed49':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 49, 'n_runs': 100},
+'arm_seed50':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 50, 'n_runs': 100},
+'arm_seed51':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 51, 'n_runs': 100},
+'arm_seed52':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 52, 'n_runs': 100},
+'arm_seed53':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 53, 'n_runs': 100},
+'arm_seed54':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 54, 'n_runs': 100},
+'arm_seed55':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 55, 'n_runs': 100},
+'arm_seed56':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 56, 'n_runs': 100},
+'arm_seed57':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 57, 'n_runs': 100},
+'arm_seed58':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 58, 'n_runs': 100},
+'arm_seed59':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 59, 'n_runs': 100},
+'arm_seed60':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 60, 'n_runs': 100},
+'arm_seed61':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 61, 'n_runs': 100},
+'arm_seed62':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 62, 'n_runs': 100},
+'arm_seed63':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 63, 'n_runs': 100},
+'arm_seed64':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 64, 'n_runs': 100},
+'arm_seed65':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 65, 'n_runs': 100},
+'arm_seed66':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 66, 'n_runs': 100},
+'arm_seed67':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 67, 'n_runs': 100},
+'arm_seed68':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 68, 'n_runs': 100},
+'arm_seed69':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 69, 'n_runs': 100},
+'arm_seed70':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 70, 'n_runs': 100},
+'arm_seed71':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 71, 'n_runs': 100},
+'arm_seed72':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 72, 'n_runs': 100},
+'arm_seed73':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 73, 'n_runs': 100},
+'arm_seed74':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 74, 'n_runs': 100},
+'arm_seed75':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 75, 'n_runs': 100},
+'arm_seed76':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 76, 'n_runs': 100},
+'arm_seed77':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 77, 'n_runs': 100},
+'arm_seed78':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 78, 'n_runs': 100},
+'arm_seed79':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 79, 'n_runs': 100},
+'arm_seed80':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 80, 'n_runs': 100},
+'arm_seed81':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 81, 'n_runs': 100},
+'arm_seed82':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 82, 'n_runs': 100},
+'arm_seed83':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 83, 'n_runs': 100},
+'arm_seed84':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 84, 'n_runs': 100},
+'arm_seed85':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 85, 'n_runs': 100},
+'arm_seed86':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 86, 'n_runs': 100},
+'arm_seed87':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 87, 'n_runs': 100},
+'arm_seed88':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 88, 'n_runs': 100},
+'arm_seed89':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 89, 'n_runs': 100},
+'arm_seed90':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 90, 'n_runs': 100},
+'arm_seed91':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 91, 'n_runs': 100},
+'arm_seed92':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 92, 'n_runs': 100},
+'arm_seed93':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 93, 'n_runs': 100},
+'arm_seed94':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 94, 'n_runs': 100},
+'arm_seed95':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 95, 'n_runs': 100},
+'arm_seed96':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 96, 'n_runs': 100},
+'arm_seed97':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 97, 'n_runs': 100},
+'arm_seed98':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 98, 'n_runs': 100},
+'arm_seed99':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 99, 'n_runs': 100},
+'arm_seed100':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 100, 'n_runs': 100},
+'arm_seed101':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 101, 'n_runs': 100},
+'arm_seed102':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 102, 'n_runs': 100},
+'arm_seed103':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 103, 'n_runs': 100},
+'arm_seed104':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 104, 'n_runs': 100},
+'arm_seed105':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 105, 'n_runs': 100},
+'arm_seed106':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 106, 'n_runs': 100},
+'arm_seed107':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 107, 'n_runs': 100},
+'arm_seed108':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 108, 'n_runs': 100},
+'arm_seed109':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 109, 'n_runs': 100},
+'arm_seed110':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 110, 'n_runs': 100},
+'arm_seed111':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 111, 'n_runs': 100},
+'arm_seed112':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 112, 'n_runs': 100},
+'arm_seed113':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 113, 'n_runs': 100},
+'arm_seed114':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 114, 'n_runs': 100},
+'arm_seed115':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 115, 'n_runs': 100},
+'arm_seed116':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 116, 'n_runs': 100},
+'arm_seed117':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 117, 'n_runs': 100},
+'arm_seed118':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 118, 'n_runs': 100},
+'arm_seed119':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 119, 'n_runs': 100},
+'arm_seed120':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 120, 'n_runs': 100},
+'arm_seed121':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 121, 'n_runs': 100},
+'arm_seed122':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 122, 'n_runs': 100},
+'arm_seed123':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 123, 'n_runs': 100},
+'arm_seed124':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 124, 'n_runs': 100},
+'arm_seed125':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 125, 'n_runs': 100},
+'arm_seed126':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 126, 'n_runs': 100},
+'arm_seed127':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 127, 'n_runs': 100},
+'arm_seed128':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 128, 'n_runs': 100},
+'arm_seed129':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 129, 'n_runs': 100},
+'arm_seed130':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 130, 'n_runs': 100},
+'arm_seed131':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 131, 'n_runs': 100},
+'arm_seed132':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 132, 'n_runs': 100},
+'arm_seed133':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 133, 'n_runs': 100},
+'arm_seed134':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 134, 'n_runs': 100},
+'arm_seed135':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 135, 'n_runs': 100},
+'arm_seed136':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 136, 'n_runs': 100},
+'arm_seed137':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 137, 'n_runs': 100},
+'arm_seed138':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 138, 'n_runs': 100},
+'arm_seed139':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 139, 'n_runs': 100},
+'arm_seed140':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 140, 'n_runs': 100},
+'arm_seed141':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 141, 'n_runs': 100},
+'arm_seed142':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 142, 'n_runs': 100},
+'arm_seed143':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 143, 'n_runs': 100},
+'arm_seed144':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 144, 'n_runs': 100},
+'arm_seed145':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 145, 'n_runs': 100},
+'arm_seed146':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 146, 'n_runs': 100},
+'arm_seed147':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 147, 'n_runs': 100},
+'arm_seed148':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 148, 'n_runs': 100},
+'arm_seed149':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 149, 'n_runs': 100},
+'arm_seed150':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 150, 'n_runs': 100},
+'arm_seed151':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 151, 'n_runs': 100},
+'arm_seed152':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 152, 'n_runs': 100},
+'arm_seed153':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 153, 'n_runs': 100},
+'arm_seed154':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 154, 'n_runs': 100},
+'arm_seed155':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 155, 'n_runs': 100},
+'arm_seed156':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 156, 'n_runs': 100},
+'arm_seed157':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 157, 'n_runs': 100},
+'arm_seed158':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 158, 'n_runs': 100},
+'arm_seed159':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 159, 'n_runs': 100},
+'arm_seed160':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 160, 'n_runs': 100},
+'arm_seed161':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 161, 'n_runs': 100},
+'arm_seed162':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 162, 'n_runs': 100},
+'arm_seed163':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 163, 'n_runs': 100},
+'arm_seed164':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 164, 'n_runs': 100},
+'arm_seed165':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 165, 'n_runs': 100},
+'arm_seed166':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 166, 'n_runs': 100},
+'arm_seed167':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 167, 'n_runs': 100},
+'arm_seed168':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 168, 'n_runs': 100},
+'arm_seed169':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 169, 'n_runs': 100},
+'arm_seed170':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 170, 'n_runs': 100},
+'arm_seed171':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 171, 'n_runs': 100},
+'arm_seed172':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 172, 'n_runs': 100},
+'arm_seed173':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 173, 'n_runs': 100},
+'arm_seed174':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 174, 'n_runs': 100},
+'arm_seed175':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 175, 'n_runs': 100},
+'arm_seed176':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 176, 'n_runs': 100},
+'arm_seed177':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 177, 'n_runs': 100},
+'arm_seed178':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 178, 'n_runs': 100},
+'arm_seed179':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 179, 'n_runs': 100},
+'arm_seed180':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 180, 'n_runs': 100},
+'arm_seed181':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 181, 'n_runs': 100},
+'arm_seed182':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 182, 'n_runs': 100},
+'arm_seed183':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 183, 'n_runs': 100},
+'arm_seed184':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 184, 'n_runs': 100},
+'arm_seed185':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 185, 'n_runs': 100},
+'arm_seed186':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 186, 'n_runs': 100},
+'arm_seed187':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 187, 'n_runs': 100},
+'arm_seed188':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 188, 'n_runs': 100},
+'arm_seed189':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 189, 'n_runs': 100},
+'arm_seed190':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 190, 'n_runs': 100},
+'arm_seed191':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 191, 'n_runs': 100},
+'arm_seed192':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 192, 'n_runs': 100},
+'arm_seed193':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 193, 'n_runs': 100},
+'arm_seed194':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 194, 'n_runs': 100},
+'arm_seed195':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 195, 'n_runs': 100},
+'arm_seed196':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 196, 'n_runs': 100},
+'arm_seed197':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 197, 'n_runs': 100},
+'arm_seed198':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 198, 'n_runs': 100},
+'arm_seed199':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 199, 'n_runs': 100},
+'arm_seed200':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 200, 'n_runs': 100},
+'arm_seed201':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 201, 'n_runs': 100},
+'arm_seed202':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 202, 'n_runs': 100},
+'arm_seed203':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 203, 'n_runs': 100},
+'arm_seed204':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 204, 'n_runs': 100},
+'arm_seed205':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 205, 'n_runs': 100},
+'arm_seed206':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 206, 'n_runs': 100},
+'arm_seed207':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 207, 'n_runs': 100},
+'arm_seed208':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 208, 'n_runs': 100},
+'arm_seed209':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 209, 'n_runs': 100},
+'arm_seed210':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 210, 'n_runs': 100},
+'arm_seed211':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 211, 'n_runs': 100},
+'arm_seed212':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 212, 'n_runs': 100},
+'arm_seed213':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 213, 'n_runs': 100},
+'arm_seed214':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 214, 'n_runs': 100},
+'arm_seed215':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 215, 'n_runs': 100},
+'arm_seed216':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 216, 'n_runs': 100},
+'arm_seed217':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 217, 'n_runs': 100},
+'arm_seed218':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 218, 'n_runs': 100},
+'arm_seed219':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 219, 'n_runs': 100},
+'arm_seed220':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 220, 'n_runs': 100},
+'arm_seed221':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 221, 'n_runs': 100},
+'arm_seed222':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 222, 'n_runs': 100},
+'arm_seed223':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 223, 'n_runs': 100},
+'arm_seed224':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 224, 'n_runs': 100},
+'arm_seed225':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 225, 'n_runs': 100},
+'arm_seed226':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 226, 'n_runs': 100},
+'arm_seed227':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 227, 'n_runs': 100},
+'arm_seed228':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 228, 'n_runs': 100},
+'arm_seed229':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 229, 'n_runs': 100},
+'arm_seed230':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 230, 'n_runs': 100},
+'arm_seed231':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 231, 'n_runs': 100},
+'arm_seed232':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 232, 'n_runs': 100},
+'arm_seed233':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 233, 'n_runs': 100},
+'arm_seed234':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 234, 'n_runs': 100},
+'arm_seed235':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 235, 'n_runs': 100},
+'arm_seed236':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 236, 'n_runs': 100},
+'arm_seed237':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 237, 'n_runs': 100},
+'arm_seed238':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 238, 'n_runs': 100},
+'arm_seed239':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 239, 'n_runs': 100},
+'arm_seed240':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 240, 'n_runs': 100},
+'arm_seed241':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 241, 'n_runs': 100},
+'arm_seed242':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 242, 'n_runs': 100},
+'arm_seed243':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 243, 'n_runs': 100},
+'arm_seed244':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 244, 'n_runs': 100},
+'arm_seed245':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 245, 'n_runs': 100},
+'arm_seed246':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 246, 'n_runs': 100},
+'arm_seed247':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 247, 'n_runs': 100},
+'arm_seed248':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 248, 'n_runs': 100},
+'arm_seed249':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 249, 'n_runs': 100},
+'arm_seed250':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 250, 'n_runs': 100},
+'arm_seed251':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 251, 'n_runs': 100},
+'arm_seed252':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 252, 'n_runs': 100},
+'arm_seed253':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 253, 'n_runs': 100},
+'arm_seed254':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 254, 'n_runs': 100},
+'arm_seed255':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 255, 'n_runs': 100},
+'arm_seed256':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 256, 'n_runs': 100},
+'arm_seed257':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 257, 'n_runs': 100},
+'arm_seed258':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 258, 'n_runs': 100},
+'arm_seed259':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 259, 'n_runs': 100},
+'arm_seed260':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 260, 'n_runs': 100},
+'arm_seed261':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 261, 'n_runs': 100},
+'arm_seed262':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 262, 'n_runs': 100},
+'arm_seed263':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 263, 'n_runs': 100},
+'arm_seed264':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 264, 'n_runs': 100},
+'arm_seed265':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 265, 'n_runs': 100},
+'arm_seed266':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 266, 'n_runs': 100},
+'arm_seed267':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 267, 'n_runs': 100},
+'arm_seed268':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 268, 'n_runs': 100},
+'arm_seed269':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 269, 'n_runs': 100},
+'arm_seed270':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 270, 'n_runs': 100},
+'arm_seed271':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 271, 'n_runs': 100},
+'arm_seed272':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 272, 'n_runs': 100},
+'arm_seed273':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 273, 'n_runs': 100},
+'arm_seed274':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 274, 'n_runs': 100},
+'arm_seed275':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 275, 'n_runs': 100},
+'arm_seed276':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 276, 'n_runs': 100},
+'arm_seed277':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 277, 'n_runs': 100},
+'arm_seed278':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 278, 'n_runs': 100},
+'arm_seed279':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 279, 'n_runs': 100},
+'arm_seed280':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 280, 'n_runs': 100},
+'arm_seed281':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 281, 'n_runs': 100},
+'arm_seed282':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 282, 'n_runs': 100},
+'arm_seed283':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 283, 'n_runs': 100},
+'arm_seed284':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 284, 'n_runs': 100},
+'arm_seed285':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 285, 'n_runs': 100},
+'arm_seed286':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 286, 'n_runs': 100},
+'arm_seed287':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 287, 'n_runs': 100},
+'arm_seed288':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 288, 'n_runs': 100},
+'arm_seed289':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 289, 'n_runs': 100},
+'arm_seed290':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 290, 'n_runs': 100},
+'arm_seed291':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 291, 'n_runs': 100},
+'arm_seed292':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 292, 'n_runs': 100},
+'arm_seed293':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 293, 'n_runs': 100},
+'arm_seed294':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 294, 'n_runs': 100},
+'arm_seed295':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 295, 'n_runs': 100},
+'arm_seed296':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 296, 'n_runs': 100},
+'arm_seed297':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 297, 'n_runs': 100},
+'arm_seed298':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 298, 'n_runs': 100},
+'arm_seed299':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 299, 'n_runs': 100},
+'arm_seed300':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 300, 'n_runs': 100},
+'arm_seed301':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 301, 'n_runs': 100},
+'arm_seed302':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 302, 'n_runs': 100},
+'arm_seed303':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 303, 'n_runs': 100},
+'arm_seed304':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 304, 'n_runs': 100},
+'arm_seed305':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 305, 'n_runs': 100},
+'arm_seed306':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 306, 'n_runs': 100},
+'arm_seed307':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 307, 'n_runs': 100},
+'arm_seed308':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 308, 'n_runs': 100},
+'arm_seed309':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 309, 'n_runs': 100},
+'arm_seed310':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 310, 'n_runs': 100},
+'arm_seed311':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 311, 'n_runs': 100},
+'arm_seed312':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 312, 'n_runs': 100},
+'arm_seed313':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 313, 'n_runs': 100},
+'arm_seed314':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 314, 'n_runs': 100},
+'arm_seed315':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 315, 'n_runs': 100},
+'arm_seed316':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 316, 'n_runs': 100},
+'arm_seed317':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 317, 'n_runs': 100},
+'arm_seed318':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 318, 'n_runs': 100},
+'arm_seed319':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 319, 'n_runs': 100},
+'arm_seed320':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 320, 'n_runs': 100},
+'arm_seed321':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 321, 'n_runs': 100},
+'arm_seed322':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 322, 'n_runs': 100},
+'arm_seed323':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 323, 'n_runs': 100},
+'arm_seed324':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 324, 'n_runs': 100},
+'arm_seed325':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 325, 'n_runs': 100},
+'arm_seed326':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 326, 'n_runs': 100},
+'arm_seed327':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 327, 'n_runs': 100},
+'arm_seed328':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 328, 'n_runs': 100},
+'arm_seed329':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 329, 'n_runs': 100},
+'arm_seed330':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 330, 'n_runs': 100},
+'arm_seed331':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 331, 'n_runs': 100},
+'arm_seed332':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 332, 'n_runs': 100},
+'arm_seed333':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 333, 'n_runs': 100},
+'arm_seed334':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 334, 'n_runs': 100},
+'arm_seed335':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 335, 'n_runs': 100},
+'arm_seed336':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 336, 'n_runs': 100},
+'arm_seed337':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 337, 'n_runs': 100},
+'arm_seed338':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 338, 'n_runs': 100},
+'arm_seed339':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 339, 'n_runs': 100},
+'arm_seed340':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 340, 'n_runs': 100},
+'arm_seed341':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 341, 'n_runs': 100},
+'arm_seed342':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 342, 'n_runs': 100},
+'arm_seed343':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 343, 'n_runs': 100},
+'arm_seed344':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 344, 'n_runs': 100},
+'arm_seed345':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 345, 'n_runs': 100},
+'arm_seed346':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 346, 'n_runs': 100},
+'arm_seed347':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 347, 'n_runs': 100},
+'arm_seed348':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 348, 'n_runs': 100},
+'arm_seed349':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 349, 'n_runs': 100},
+'arm_seed350':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 350, 'n_runs': 100},
+'arm_seed351':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 351, 'n_runs': 100},
+'arm_seed352':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 352, 'n_runs': 100},
+'arm_seed353':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 353, 'n_runs': 100},
+'arm_seed354':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 354, 'n_runs': 100},
+'arm_seed355':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 355, 'n_runs': 100},
+'arm_seed356':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 356, 'n_runs': 100},
+'arm_seed357':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 357, 'n_runs': 100},
+'arm_seed358':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 358, 'n_runs': 100},
+'arm_seed359':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 359, 'n_runs': 100},
+'arm_seed360':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 360, 'n_runs': 100},
+'arm_seed361':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 361, 'n_runs': 100},
+'arm_seed362':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 362, 'n_runs': 100},
+'arm_seed363':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 363, 'n_runs': 100},
+'arm_seed364':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 364, 'n_runs': 100},
+'arm_seed365':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 365, 'n_runs': 100},
+'arm_seed366':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 366, 'n_runs': 100},
+'arm_seed367':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 367, 'n_runs': 100},
+'arm_seed368':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 368, 'n_runs': 100},
+'arm_seed369':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 369, 'n_runs': 100},
+'arm_seed370':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 370, 'n_runs': 100},
+'arm_seed371':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 371, 'n_runs': 100},
+'arm_seed372':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 372, 'n_runs': 100},
+'arm_seed373':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 373, 'n_runs': 100},
+'arm_seed374':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 374, 'n_runs': 100},
+'arm_seed375':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 375, 'n_runs': 100},
+'arm_seed376':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 376, 'n_runs': 100},
+'arm_seed377':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 377, 'n_runs': 100},
+'arm_seed378':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 378, 'n_runs': 100},
+'arm_seed379':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 379, 'n_runs': 100},
+'arm_seed380':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 380, 'n_runs': 100},
+'arm_seed381':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 381, 'n_runs': 100},
+'arm_seed382':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 382, 'n_runs': 100},
+'arm_seed383':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 383, 'n_runs': 100},
+'arm_seed384':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 384, 'n_runs': 100},
+'arm_seed385':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 385, 'n_runs': 100},
+'arm_seed386':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 386, 'n_runs': 100},
+'arm_seed387':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 387, 'n_runs': 100},
+'arm_seed388':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 388, 'n_runs': 100},
+'arm_seed389':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 389, 'n_runs': 100},
+'arm_seed390':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 390, 'n_runs': 100},
+'arm_seed391':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 391, 'n_runs': 100},
+'arm_seed392':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 392, 'n_runs': 100},
+'arm_seed393':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 393, 'n_runs': 100},
+'arm_seed394':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 394, 'n_runs': 100},
+'arm_seed395':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 395, 'n_runs': 100},
+'arm_seed396':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 396, 'n_runs': 100},
+'arm_seed397':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 397, 'n_runs': 100},
+'arm_seed398':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 398, 'n_runs': 100},
+'arm_seed399':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 399, 'n_runs': 100},
+'arm_seed400':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 400, 'n_runs': 100},
+'arm_seed401':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 401, 'n_runs': 100},
+'arm_seed402':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 402, 'n_runs': 100},
+'arm_seed403':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 403, 'n_runs': 100},
+'arm_seed404':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 404, 'n_runs': 100},
+'arm_seed405':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 405, 'n_runs': 100},
+'arm_seed406':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 406, 'n_runs': 100},
+'arm_seed407':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 407, 'n_runs': 100},
+'arm_seed408':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 408, 'n_runs': 100},
+'arm_seed409':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 409, 'n_runs': 100},
+'arm_seed410':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 410, 'n_runs': 100},
+'arm_seed411':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 411, 'n_runs': 100},
+'arm_seed412':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 412, 'n_runs': 100},
+'arm_seed413':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 413, 'n_runs': 100},
+'arm_seed414':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 414, 'n_runs': 100},
+'arm_seed415':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 415, 'n_runs': 100},
+'arm_seed416':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 416, 'n_runs': 100},
+'arm_seed417':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 417, 'n_runs': 100},
+'arm_seed418':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 418, 'n_runs': 100},
+'arm_seed419':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 419, 'n_runs': 100},
+'arm_seed420':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 420, 'n_runs': 100},
+'arm_seed421':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 421, 'n_runs': 100},
+'arm_seed422':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 422, 'n_runs': 100},
+'arm_seed423':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 423, 'n_runs': 100},
+'arm_seed424':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 424, 'n_runs': 100},
+'arm_seed425':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 425, 'n_runs': 100},
+'arm_seed426':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 426, 'n_runs': 100},
+'arm_seed427':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 427, 'n_runs': 100},
+'arm_seed428':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 428, 'n_runs': 100},
+'arm_seed429':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 429, 'n_runs': 100},
+'arm_seed430':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 430, 'n_runs': 100},
+'arm_seed431':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 431, 'n_runs': 100},
+'arm_seed432':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 432, 'n_runs': 100},
+'arm_seed433':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 433, 'n_runs': 100},
+'arm_seed434':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 434, 'n_runs': 100},
+'arm_seed435':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 435, 'n_runs': 100},
+'arm_seed436':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 436, 'n_runs': 100},
+'arm_seed437':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 437, 'n_runs': 100},
+'arm_seed438':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 438, 'n_runs': 100},
+'arm_seed439':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 439, 'n_runs': 100},
+'arm_seed440':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 440, 'n_runs': 100},
+'arm_seed441':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 441, 'n_runs': 100},
+'arm_seed442':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 442, 'n_runs': 100},
+'arm_seed443':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 443, 'n_runs': 100},
+'arm_seed444':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 444, 'n_runs': 100},
+'arm_seed445':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 445, 'n_runs': 100},
+'arm_seed446':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 446, 'n_runs': 100},
+'arm_seed447':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 447, 'n_runs': 100},
+'arm_seed448':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 448, 'n_runs': 100},
+'arm_seed449':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 449, 'n_runs': 100},
+'arm_seed450':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 450, 'n_runs': 100},
+'arm_seed451':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 451, 'n_runs': 100},
+'arm_seed452':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 452, 'n_runs': 100},
+'arm_seed453':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 453, 'n_runs': 100},
+'arm_seed454':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 454, 'n_runs': 100},
+'arm_seed455':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 455, 'n_runs': 100},
+'arm_seed456':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 456, 'n_runs': 100},
+'arm_seed457':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 457, 'n_runs': 100},
+'arm_seed458':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 458, 'n_runs': 100},
+'arm_seed459':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 459, 'n_runs': 100},
+'arm_seed460':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 460, 'n_runs': 100},
+'arm_seed461':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 461, 'n_runs': 100},
+'arm_seed462':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 462, 'n_runs': 100},
+'arm_seed463':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 463, 'n_runs': 100},
+'arm_seed464':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 464, 'n_runs': 100},
+'arm_seed465':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 465, 'n_runs': 100},
+'arm_seed466':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 466, 'n_runs': 100},
+'arm_seed467':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 467, 'n_runs': 100},
+'arm_seed468':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 468, 'n_runs': 100},
+'arm_seed469':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 469, 'n_runs': 100},
+'arm_seed470':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 470, 'n_runs': 100},
+'arm_seed471':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 471, 'n_runs': 100},
+'arm_seed472':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 472, 'n_runs': 100},
+'arm_seed473':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 473, 'n_runs': 100},
+'arm_seed474':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 474, 'n_runs': 100},
+'arm_seed475':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 475, 'n_runs': 100},
+'arm_seed476':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 476, 'n_runs': 100},
+'arm_seed477':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 477, 'n_runs': 100},
+'arm_seed478':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 478, 'n_runs': 100},
+'arm_seed479':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 479, 'n_runs': 100},
+'arm_seed480':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 480, 'n_runs': 100},
+'arm_seed481':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 481, 'n_runs': 100},
+'arm_seed482':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 482, 'n_runs': 100},
+'arm_seed483':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 483, 'n_runs': 100},
+'arm_seed484':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 484, 'n_runs': 100},
+'arm_seed485':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 485, 'n_runs': 100},
+'arm_seed486':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 486, 'n_runs': 100},
+'arm_seed487':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 487, 'n_runs': 100},
+'arm_seed488':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 488, 'n_runs': 100},
+'arm_seed489':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 489, 'n_runs': 100},
+'arm_seed490':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 490, 'n_runs': 100},
+'arm_seed491':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 491, 'n_runs': 100},
+'arm_seed492':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 492, 'n_runs': 100},
+'arm_seed493':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 493, 'n_runs': 100},
+'arm_seed494':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 494, 'n_runs': 100},
+'arm_seed495':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 495, 'n_runs': 100},
+'arm_seed496':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 496, 'n_runs': 100},
+'arm_seed497':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 497, 'n_runs': 100},
+'arm_seed498':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 498, 'n_runs': 100},
+'arm_seed499':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 499, 'n_runs': 100},
+'arm_seed500':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 500, 'n_runs': 100},
+'arm_seed501':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 501, 'n_runs': 100},
+'arm_seed502':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 502, 'n_runs': 100},
+'arm_seed503':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 503, 'n_runs': 100},
+'arm_seed504':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 504, 'n_runs': 100},
+'arm_seed505':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 505, 'n_runs': 100},
+'arm_seed506':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 506, 'n_runs': 100},
+'arm_seed507':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 507, 'n_runs': 100},
+'arm_seed508':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 508, 'n_runs': 100},
+'arm_seed509':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 509, 'n_runs': 100},
+'arm_seed510':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 510, 'n_runs': 100},
+'arm_seed511':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 511, 'n_runs': 100},
+'arm_seed512':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 512, 'n_runs': 100},
+'arm_seed513':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 513, 'n_runs': 100},
+'arm_seed514':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 514, 'n_runs': 100},
+'arm_seed515':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 515, 'n_runs': 100},
+'arm_seed516':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 516, 'n_runs': 100},
+'arm_seed517':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 517, 'n_runs': 100},
+'arm_seed518':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 518, 'n_runs': 100},
+'arm_seed519':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 519, 'n_runs': 100},
+'arm_seed520':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 520, 'n_runs': 100},
+'arm_seed521':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 521, 'n_runs': 100},
+'arm_seed522':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 522, 'n_runs': 100},
+'arm_seed523':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 523, 'n_runs': 100},
+'arm_seed524':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 524, 'n_runs': 100},
+'arm_seed525':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 525, 'n_runs': 100},
+'arm_seed526':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 526, 'n_runs': 100},
+'arm_seed527':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 527, 'n_runs': 100},
+'arm_seed528':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 528, 'n_runs': 100},
+'arm_seed529':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 529, 'n_runs': 100},
+'arm_seed530':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 530, 'n_runs': 100},
+'arm_seed531':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 531, 'n_runs': 100},
+'arm_seed532':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 532, 'n_runs': 100},
+'arm_seed533':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 533, 'n_runs': 100},
+'arm_seed534':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 534, 'n_runs': 100},
+'arm_seed535':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 535, 'n_runs': 100},
+'arm_seed536':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 536, 'n_runs': 100},
+'arm_seed537':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 537, 'n_runs': 100},
+'arm_seed538':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 538, 'n_runs': 100},
+'arm_seed539':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 539, 'n_runs': 100},
+'arm_seed540':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 540, 'n_runs': 100},
+'arm_seed541':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 541, 'n_runs': 100},
+'arm_seed542':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 542, 'n_runs': 100},
+'arm_seed543':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 543, 'n_runs': 100},
+'arm_seed544':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 544, 'n_runs': 100},
+'arm_seed545':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 545, 'n_runs': 100},
+'arm_seed546':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 546, 'n_runs': 100},
+'arm_seed547':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 547, 'n_runs': 100},
+'arm_seed548':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 548, 'n_runs': 100},
+'arm_seed549':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 549, 'n_runs': 100},
+'arm_seed550':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 550, 'n_runs': 100},
+'arm_seed551':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 551, 'n_runs': 100},
+'arm_seed552':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 552, 'n_runs': 100},
+'arm_seed553':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 553, 'n_runs': 100},
+'arm_seed554':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 554, 'n_runs': 100},
+'arm_seed555':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 555, 'n_runs': 100},
+'arm_seed556':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 556, 'n_runs': 100},
+'arm_seed557':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 557, 'n_runs': 100},
+'arm_seed558':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 558, 'n_runs': 100},
+'arm_seed559':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 559, 'n_runs': 100},
+'arm_seed560':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 560, 'n_runs': 100},
+'arm_seed561':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 561, 'n_runs': 100},
+'arm_seed562':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 562, 'n_runs': 100},
+'arm_seed563':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 563, 'n_runs': 100},
+'arm_seed564':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 564, 'n_runs': 100},
+'arm_seed565':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 565, 'n_runs': 100},
+'arm_seed566':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 566, 'n_runs': 100},
+'arm_seed567':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 567, 'n_runs': 100},
+'arm_seed568':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 568, 'n_runs': 100},
+'arm_seed569':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 569, 'n_runs': 100},
+'arm_seed570':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 570, 'n_runs': 100},
+'arm_seed571':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 571, 'n_runs': 100},
+'arm_seed572':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 572, 'n_runs': 100},
+'arm_seed573':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 573, 'n_runs': 100},
+'arm_seed574':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 574, 'n_runs': 100},
+'arm_seed575':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 575, 'n_runs': 100},
+'arm_seed576':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 576, 'n_runs': 100},
+'arm_seed577':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 577, 'n_runs': 100},
+'arm_seed578':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 578, 'n_runs': 100},
+'arm_seed579':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 579, 'n_runs': 100},
+'arm_seed580':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 580, 'n_runs': 100},
+'arm_seed581':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 581, 'n_runs': 100},
+'arm_seed582':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 582, 'n_runs': 100},
+'arm_seed583':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 583, 'n_runs': 100},
+'arm_seed584':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 584, 'n_runs': 100},
+'arm_seed585':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 585, 'n_runs': 100},
+'arm_seed586':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 586, 'n_runs': 100},
+'arm_seed587':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 587, 'n_runs': 100},
+'arm_seed588':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 588, 'n_runs': 100},
+'arm_seed589':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 589, 'n_runs': 100},
+'arm_seed590':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 590, 'n_runs': 100},
+'arm_seed591':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 591, 'n_runs': 100},
+'arm_seed592':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 592, 'n_runs': 100},
+'arm_seed593':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 593, 'n_runs': 100},
+'arm_seed594':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 594, 'n_runs': 100},
+'arm_seed595':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 595, 'n_runs': 100},
+'arm_seed596':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 596, 'n_runs': 100},
+'arm_seed597':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 597, 'n_runs': 100},
+'arm_seed598':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 598, 'n_runs': 100},
+'arm_seed599':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 599, 'n_runs': 100},
+'arm_seed600':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 600, 'n_runs': 100},
+'arm_seed601':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 601, 'n_runs': 100},
+'arm_seed602':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 602, 'n_runs': 100},
+'arm_seed603':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 603, 'n_runs': 100},
+'arm_seed604':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 604, 'n_runs': 100},
+'arm_seed605':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 605, 'n_runs': 100},
+'arm_seed606':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 606, 'n_runs': 100},
+'arm_seed607':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 607, 'n_runs': 100},
+'arm_seed608':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 608, 'n_runs': 100},
+'arm_seed609':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 609, 'n_runs': 100},
+'arm_seed610':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 610, 'n_runs': 100},
+'arm_seed611':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 611, 'n_runs': 100},
+'arm_seed612':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 612, 'n_runs': 100},
+'arm_seed613':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 613, 'n_runs': 100},
+'arm_seed614':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 614, 'n_runs': 100},
+'arm_seed615':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 615, 'n_runs': 100},
+'arm_seed616':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 616, 'n_runs': 100},
+'arm_seed617':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 617, 'n_runs': 100},
+'arm_seed618':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 618, 'n_runs': 100},
+'arm_seed619':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 619, 'n_runs': 100},
+'arm_seed620':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 620, 'n_runs': 100},
+'arm_seed621':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 621, 'n_runs': 100},
+'arm_seed622':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 622, 'n_runs': 100},
+'arm_seed623':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 623, 'n_runs': 100},
+'arm_seed624':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 624, 'n_runs': 100},
+'arm_seed625':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 625, 'n_runs': 100},
+'arm_seed626':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 626, 'n_runs': 100},
+'arm_seed627':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 627, 'n_runs': 100},
+'arm_seed628':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 628, 'n_runs': 100},
+'arm_seed629':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 629, 'n_runs': 100},
+'arm_seed630':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 630, 'n_runs': 100},
+'arm_seed631':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 631, 'n_runs': 100},
+'arm_seed632':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 632, 'n_runs': 100},
+'arm_seed633':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 633, 'n_runs': 100},
+'arm_seed634':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 634, 'n_runs': 100},
+'arm_seed635':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 635, 'n_runs': 100},
+'arm_seed636':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 636, 'n_runs': 100},
+'arm_seed637':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 637, 'n_runs': 100},
+'arm_seed638':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 638, 'n_runs': 100},
+'arm_seed639':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 639, 'n_runs': 100},
+'arm_seed640':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 640, 'n_runs': 100},
+'arm_seed641':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 641, 'n_runs': 100},
+'arm_seed642':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 642, 'n_runs': 100},
+'arm_seed643':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 643, 'n_runs': 100},
+'arm_seed644':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 644, 'n_runs': 100},
+'arm_seed645':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 645, 'n_runs': 100},
+'arm_seed646':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 646, 'n_runs': 100},
+'arm_seed647':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 647, 'n_runs': 100},
+'arm_seed648':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 648, 'n_runs': 100},
+'arm_seed649':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 649, 'n_runs': 100},
+'arm_seed650':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 650, 'n_runs': 100},
+'arm_seed651':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 651, 'n_runs': 100},
+'arm_seed652':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 652, 'n_runs': 100},
+'arm_seed653':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 653, 'n_runs': 100},
+'arm_seed654':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 654, 'n_runs': 100},
+'arm_seed655':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 655, 'n_runs': 100},
+'arm_seed656':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 656, 'n_runs': 100},
+'arm_seed657':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 657, 'n_runs': 100},
+'arm_seed658':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 658, 'n_runs': 100},
+'arm_seed659':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 659, 'n_runs': 100},
+'arm_seed660':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 660, 'n_runs': 100},
+'arm_seed661':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 661, 'n_runs': 100},
+'arm_seed662':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 662, 'n_runs': 100},
+'arm_seed663':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 663, 'n_runs': 100},
+'arm_seed664':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 664, 'n_runs': 100},
+'arm_seed665':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 665, 'n_runs': 100},
+'arm_seed666':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 666, 'n_runs': 100},
+'arm_seed667':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 667, 'n_runs': 100},
+'arm_seed668':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 668, 'n_runs': 100},
+'arm_seed669':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 669, 'n_runs': 100},
+'arm_seed670':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 670, 'n_runs': 100},
+'arm_seed671':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 671, 'n_runs': 100},
+'arm_seed672':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 672, 'n_runs': 100},
+'arm_seed673':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 673, 'n_runs': 100},
+'arm_seed674':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 674, 'n_runs': 100},
+'arm_seed675':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 675, 'n_runs': 100},
+'arm_seed676':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 676, 'n_runs': 100},
+'arm_seed677':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 677, 'n_runs': 100},
+'arm_seed678':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 678, 'n_runs': 100},
+'arm_seed679':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 679, 'n_runs': 100},
+'arm_seed680':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 680, 'n_runs': 100},
+'arm_seed681':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 681, 'n_runs': 100},
+'arm_seed682':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 682, 'n_runs': 100},
+'arm_seed683':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 683, 'n_runs': 100},
+'arm_seed684':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 684, 'n_runs': 100},
+'arm_seed685':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 685, 'n_runs': 100},
+'arm_seed686':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 686, 'n_runs': 100},
+'arm_seed687':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 687, 'n_runs': 100},
+'arm_seed688':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 688, 'n_runs': 100},
+'arm_seed689':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 689, 'n_runs': 100},
+'arm_seed690':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 690, 'n_runs': 100},
+'arm_seed691':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 691, 'n_runs': 100},
+'arm_seed692':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 692, 'n_runs': 100},
+'arm_seed693':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 693, 'n_runs': 100},
+'arm_seed694':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 694, 'n_runs': 100},
+'arm_seed695':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 695, 'n_runs': 100},
+'arm_seed696':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 696, 'n_runs': 100},
+'arm_seed697':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 697, 'n_runs': 100},
+'arm_seed698':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 698, 'n_runs': 100},
+'arm_seed699':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 699, 'n_runs': 100},
+'arm_seed700':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 700, 'n_runs': 100},
+'arm_seed701':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 701, 'n_runs': 100},
+'arm_seed702':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 702, 'n_runs': 100},
+'arm_seed703':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 703, 'n_runs': 100},
+'arm_seed704':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 704, 'n_runs': 100},
+'arm_seed705':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 705, 'n_runs': 100},
+'arm_seed706':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 706, 'n_runs': 100},
+'arm_seed707':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 707, 'n_runs': 100},
+'arm_seed708':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 708, 'n_runs': 100},
+'arm_seed709':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 709, 'n_runs': 100},
+'arm_seed710':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 710, 'n_runs': 100},
+'arm_seed711':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 711, 'n_runs': 100},
+'arm_seed712':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 712, 'n_runs': 100},
+'arm_seed713':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 713, 'n_runs': 100},
+'arm_seed714':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 714, 'n_runs': 100},
+'arm_seed715':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 715, 'n_runs': 100},
+'arm_seed716':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 716, 'n_runs': 100},
+'arm_seed717':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 717, 'n_runs': 100},
+'arm_seed718':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 718, 'n_runs': 100},
+'arm_seed719':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 719, 'n_runs': 100},
+'arm_seed720':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 720, 'n_runs': 100},
+'arm_seed721':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 721, 'n_runs': 100},
+'arm_seed722':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 722, 'n_runs': 100},
+'arm_seed723':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 723, 'n_runs': 100},
+'arm_seed724':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 724, 'n_runs': 100},
+'arm_seed725':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 725, 'n_runs': 100},
+'arm_seed726':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 726, 'n_runs': 100},
+'arm_seed727':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 727, 'n_runs': 100},
+'arm_seed728':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 728, 'n_runs': 100},
+'arm_seed729':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 729, 'n_runs': 100},
+'arm_seed730':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 730, 'n_runs': 100},
+'arm_seed731':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 731, 'n_runs': 100},
+'arm_seed732':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 732, 'n_runs': 100},
+'arm_seed733':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 733, 'n_runs': 100},
+'arm_seed734':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 734, 'n_runs': 100},
+'arm_seed735':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 735, 'n_runs': 100},
+'arm_seed736':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 736, 'n_runs': 100},
+'arm_seed737':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 737, 'n_runs': 100},
+'arm_seed738':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 738, 'n_runs': 100},
+'arm_seed739':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 739, 'n_runs': 100},
+'arm_seed740':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 740, 'n_runs': 100},
+'arm_seed741':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 741, 'n_runs': 100},
+'arm_seed742':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 742, 'n_runs': 100},
+'arm_seed743':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 743, 'n_runs': 100},
+'arm_seed744':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 744, 'n_runs': 100},
+'arm_seed745':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 745, 'n_runs': 100},
+'arm_seed746':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 746, 'n_runs': 100},
+'arm_seed747':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 747, 'n_runs': 100},
+'arm_seed748':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 748, 'n_runs': 100},
+'arm_seed749':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 749, 'n_runs': 100},
+'arm_seed750':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 750, 'n_runs': 100},
+'arm_seed751':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 751, 'n_runs': 100},
+'arm_seed752':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 752, 'n_runs': 100},
+'arm_seed753':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 753, 'n_runs': 100},
+'arm_seed754':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 754, 'n_runs': 100},
+'arm_seed755':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 755, 'n_runs': 100},
+'arm_seed756':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 756, 'n_runs': 100},
+'arm_seed757':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 757, 'n_runs': 100},
+'arm_seed758':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 758, 'n_runs': 100},
+'arm_seed759':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 759, 'n_runs': 100},
+'arm_seed760':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 760, 'n_runs': 100},
+'arm_seed761':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 761, 'n_runs': 100},
+'arm_seed762':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 762, 'n_runs': 100},
+'arm_seed763':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 763, 'n_runs': 100},
+'arm_seed764':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 764, 'n_runs': 100},
+'arm_seed765':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 765, 'n_runs': 100},
+'arm_seed766':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 766, 'n_runs': 100},
+'arm_seed767':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 767, 'n_runs': 100},
+'arm_seed768':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 768, 'n_runs': 100},
+'arm_seed769':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 769, 'n_runs': 100},
+'arm_seed770':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 770, 'n_runs': 100},
+'arm_seed771':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 771, 'n_runs': 100},
+'arm_seed772':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 772, 'n_runs': 100},
+'arm_seed773':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 773, 'n_runs': 100},
+'arm_seed774':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 774, 'n_runs': 100},
+'arm_seed775':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 775, 'n_runs': 100},
+'arm_seed776':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 776, 'n_runs': 100},
+'arm_seed777':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 777, 'n_runs': 100},
+'arm_seed778':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 778, 'n_runs': 100},
+'arm_seed779':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 779, 'n_runs': 100},
+'arm_seed780':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 780, 'n_runs': 100},
+'arm_seed781':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 781, 'n_runs': 100},
+'arm_seed782':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 782, 'n_runs': 100},
+'arm_seed783':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 783, 'n_runs': 100},
+'arm_seed784':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 784, 'n_runs': 100},
+'arm_seed785':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 785, 'n_runs': 100},
+'arm_seed786':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 786, 'n_runs': 100},
+'arm_seed787':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 787, 'n_runs': 100},
+'arm_seed788':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 788, 'n_runs': 100},
+'arm_seed789':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 789, 'n_runs': 100},
+'arm_seed790':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 790, 'n_runs': 100},
+'arm_seed791':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 791, 'n_runs': 100},
+'arm_seed792':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 792, 'n_runs': 100},
+'arm_seed793':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 793, 'n_runs': 100},
+'arm_seed794':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 794, 'n_runs': 100},
+'arm_seed795':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 795, 'n_runs': 100},
+'arm_seed796':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 796, 'n_runs': 100},
+'arm_seed797':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 797, 'n_runs': 100},
+'arm_seed798':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 798, 'n_runs': 100},
+'arm_seed799':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 799, 'n_runs': 100},
+'arm_seed800':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 800, 'n_runs': 100},
+'arm_seed801':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 801, 'n_runs': 100},
+'arm_seed802':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 802, 'n_runs': 100},
+'arm_seed803':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 803, 'n_runs': 100},
+'arm_seed804':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 804, 'n_runs': 100},
+'arm_seed805':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 805, 'n_runs': 100},
+'arm_seed806':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 806, 'n_runs': 100},
+'arm_seed807':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 807, 'n_runs': 100},
+'arm_seed808':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 808, 'n_runs': 100},
+'arm_seed809':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 809, 'n_runs': 100},
+'arm_seed810':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 810, 'n_runs': 100},
+'arm_seed811':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 811, 'n_runs': 100},
+'arm_seed812':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 812, 'n_runs': 100},
+'arm_seed813':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 813, 'n_runs': 100},
+'arm_seed814':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 814, 'n_runs': 100},
+'arm_seed815':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 815, 'n_runs': 100},
+'arm_seed816':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 816, 'n_runs': 100},
+'arm_seed817':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 817, 'n_runs': 100},
+'arm_seed818':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 818, 'n_runs': 100},
+'arm_seed819':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 819, 'n_runs': 100},
+'arm_seed820':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 820, 'n_runs': 100},
+'arm_seed821':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 821, 'n_runs': 100},
+'arm_seed822':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 822, 'n_runs': 100},
+'arm_seed823':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 823, 'n_runs': 100},
+'arm_seed824':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 824, 'n_runs': 100},
+'arm_seed825':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 825, 'n_runs': 100},
+'arm_seed826':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 826, 'n_runs': 100},
+'arm_seed827':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 827, 'n_runs': 100},
+'arm_seed828':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 828, 'n_runs': 100},
+'arm_seed829':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 829, 'n_runs': 100},
+'arm_seed830':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 830, 'n_runs': 100},
+'arm_seed831':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 831, 'n_runs': 100},
+'arm_seed832':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 832, 'n_runs': 100},
+'arm_seed833':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 833, 'n_runs': 100},
+'arm_seed834':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 834, 'n_runs': 100},
+'arm_seed835':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 835, 'n_runs': 100},
+'arm_seed836':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 836, 'n_runs': 100},
+'arm_seed837':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 837, 'n_runs': 100},
+'arm_seed838':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 838, 'n_runs': 100},
+'arm_seed839':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 839, 'n_runs': 100},
+'arm_seed840':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 840, 'n_runs': 100},
+'arm_seed841':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 841, 'n_runs': 100},
+'arm_seed842':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 842, 'n_runs': 100},
+'arm_seed843':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 843, 'n_runs': 100},
+'arm_seed844':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 844, 'n_runs': 100},
+'arm_seed845':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 845, 'n_runs': 100},
+'arm_seed846':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 846, 'n_runs': 100},
+'arm_seed847':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 847, 'n_runs': 100},
+'arm_seed848':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 848, 'n_runs': 100},
+'arm_seed849':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 849, 'n_runs': 100},
+'arm_seed850':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 850, 'n_runs': 100},
+'arm_seed851':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 851, 'n_runs': 100},
+'arm_seed852':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 852, 'n_runs': 100},
+'arm_seed853':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 853, 'n_runs': 100},
+'arm_seed854':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 854, 'n_runs': 100},
+'arm_seed855':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 855, 'n_runs': 100},
+'arm_seed856':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 856, 'n_runs': 100},
+'arm_seed857':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 857, 'n_runs': 100},
+'arm_seed858':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 858, 'n_runs': 100},
+'arm_seed859':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 859, 'n_runs': 100},
+'arm_seed860':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 860, 'n_runs': 100},
+'arm_seed861':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 861, 'n_runs': 100},
+'arm_seed862':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 862, 'n_runs': 100},
+'arm_seed863':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 863, 'n_runs': 100},
+'arm_seed864':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 864, 'n_runs': 100},
+'arm_seed865':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 865, 'n_runs': 100},
+'arm_seed866':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 866, 'n_runs': 100},
+'arm_seed867':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 867, 'n_runs': 100},
+'arm_seed868':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 868, 'n_runs': 100},
+'arm_seed869':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 869, 'n_runs': 100},
+'arm_seed870':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 870, 'n_runs': 100},
+'arm_seed871':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 871, 'n_runs': 100},
+'arm_seed872':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 872, 'n_runs': 100},
+'arm_seed873':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 873, 'n_runs': 100},
+'arm_seed874':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 874, 'n_runs': 100},
+'arm_seed875':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 875, 'n_runs': 100},
+'arm_seed876':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 876, 'n_runs': 100},
+'arm_seed877':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 877, 'n_runs': 100},
+'arm_seed878':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 878, 'n_runs': 100},
+'arm_seed879':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 879, 'n_runs': 100},
+'arm_seed880':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 880, 'n_runs': 100},
+'arm_seed881':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 881, 'n_runs': 100},
+'arm_seed882':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 882, 'n_runs': 100},
+'arm_seed883':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 883, 'n_runs': 100},
+'arm_seed884':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 884, 'n_runs': 100},
+'arm_seed885':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 885, 'n_runs': 100},
+'arm_seed886':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 886, 'n_runs': 100},
+'arm_seed887':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 887, 'n_runs': 100},
+'arm_seed888':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 888, 'n_runs': 100},
+'arm_seed889':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 889, 'n_runs': 100},
+'arm_seed890':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 890, 'n_runs': 100},
+'arm_seed891':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 891, 'n_runs': 100},
+'arm_seed892':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 892, 'n_runs': 100},
+'arm_seed893':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 893, 'n_runs': 100},
+'arm_seed894':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 894, 'n_runs': 100},
+'arm_seed895':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 895, 'n_runs': 100},
+'arm_seed896':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 896, 'n_runs': 100},
+'arm_seed897':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 897, 'n_runs': 100},
+'arm_seed898':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 898, 'n_runs': 100},
+'arm_seed899':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 899, 'n_runs': 100},
+'arm_seed900':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 900, 'n_runs': 100},
+'arm_seed901':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 901, 'n_runs': 100},
+'arm_seed902':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 902, 'n_runs': 100},
+'arm_seed903':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 903, 'n_runs': 100},
+'arm_seed904':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 904, 'n_runs': 100},
+'arm_seed905':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 905, 'n_runs': 100},
+'arm_seed906':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 906, 'n_runs': 100},
+'arm_seed907':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 907, 'n_runs': 100},
+'arm_seed908':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 908, 'n_runs': 100},
+'arm_seed909':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 909, 'n_runs': 100},
+'arm_seed910':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 910, 'n_runs': 100},
+'arm_seed911':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 911, 'n_runs': 100},
+'arm_seed912':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 912, 'n_runs': 100},
+'arm_seed913':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 913, 'n_runs': 100},
+'arm_seed914':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 914, 'n_runs': 100},
+'arm_seed915':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 915, 'n_runs': 100},
+'arm_seed916':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 916, 'n_runs': 100},
+'arm_seed917':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 917, 'n_runs': 100},
+'arm_seed918':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 918, 'n_runs': 100},
+'arm_seed919':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 919, 'n_runs': 100},
+'arm_seed920':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 920, 'n_runs': 100},
+'arm_seed921':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 921, 'n_runs': 100},
+'arm_seed922':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 922, 'n_runs': 100},
+'arm_seed923':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 923, 'n_runs': 100},
+'arm_seed924':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 924, 'n_runs': 100},
+'arm_seed925':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 925, 'n_runs': 100},
+'arm_seed926':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 926, 'n_runs': 100},
+'arm_seed927':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 927, 'n_runs': 100},
+'arm_seed928':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 928, 'n_runs': 100},
+'arm_seed929':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 929, 'n_runs': 100},
+'arm_seed930':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 930, 'n_runs': 100},
+'arm_seed931':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 931, 'n_runs': 100},
+'arm_seed932':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 932, 'n_runs': 100},
+'arm_seed933':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 933, 'n_runs': 100},
+'arm_seed934':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 934, 'n_runs': 100},
+'arm_seed935':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 935, 'n_runs': 100},
+'arm_seed936':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 936, 'n_runs': 100},
+'arm_seed937':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 937, 'n_runs': 100},
+'arm_seed938':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 938, 'n_runs': 100},
+'arm_seed939':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 939, 'n_runs': 100},
+'arm_seed940':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 940, 'n_runs': 100},
+'arm_seed941':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 941, 'n_runs': 100},
+'arm_seed942':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 942, 'n_runs': 100},
+'arm_seed943':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 943, 'n_runs': 100},
+'arm_seed944':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 944, 'n_runs': 100},
+'arm_seed945':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 945, 'n_runs': 100},
+'arm_seed946':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 946, 'n_runs': 100},
+'arm_seed947':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 947, 'n_runs': 100},
+'arm_seed948':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 948, 'n_runs': 100},
+'arm_seed949':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 949, 'n_runs': 100},
+'arm_seed950':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 950, 'n_runs': 100},
+'arm_seed951':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 951, 'n_runs': 100},
+'arm_seed952':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 952, 'n_runs': 100},
+'arm_seed953':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 953, 'n_runs': 100},
+'arm_seed954':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 954, 'n_runs': 100},
+'arm_seed955':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 955, 'n_runs': 100},
+'arm_seed956':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 956, 'n_runs': 100},
+'arm_seed957':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 957, 'n_runs': 100},
+'arm_seed958':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 958, 'n_runs': 100},
+'arm_seed959':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 959, 'n_runs': 100},
+'arm_seed960':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 960, 'n_runs': 100},
+'arm_seed961':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 961, 'n_runs': 100},
+'arm_seed962':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 962, 'n_runs': 100},
+'arm_seed963':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 963, 'n_runs': 100},
+'arm_seed964':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 964, 'n_runs': 100},
+'arm_seed965':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 965, 'n_runs': 100},
+'arm_seed966':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 966, 'n_runs': 100},
+'arm_seed967':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 967, 'n_runs': 100},
+'arm_seed968':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 968, 'n_runs': 100},
+'arm_seed969':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 969, 'n_runs': 100},
+'arm_seed970':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 970, 'n_runs': 100},
+'arm_seed971':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 971, 'n_runs': 100},
+'arm_seed972':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 972, 'n_runs': 100},
+'arm_seed973':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 973, 'n_runs': 100},
+'arm_seed974':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 974, 'n_runs': 100},
+'arm_seed975':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 975, 'n_runs': 100},
+'arm_seed976':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 976, 'n_runs': 100},
+'arm_seed977':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 977, 'n_runs': 100},
+'arm_seed978':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 978, 'n_runs': 100},
+'arm_seed979':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 979, 'n_runs': 100},
+'arm_seed980':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 980, 'n_runs': 100},
+'arm_seed981':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 981, 'n_runs': 100},
+'arm_seed982':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 982, 'n_runs': 100},
+'arm_seed983':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 983, 'n_runs': 100},
+'arm_seed984':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 984, 'n_runs': 100},
+'arm_seed985':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 985, 'n_runs': 100},
+'arm_seed986':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 986, 'n_runs': 100},
+'arm_seed987':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 987, 'n_runs': 100},
+'arm_seed988':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 988, 'n_runs': 100},
+'arm_seed989':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 989, 'n_runs': 100},
+'arm_seed990':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 990, 'n_runs': 100},
+'arm_seed991':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 991, 'n_runs': 100},
+'arm_seed992':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 992, 'n_runs': 100},
+'arm_seed993':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 993, 'n_runs': 100},
+'arm_seed994':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 994, 'n_runs': 100},
+'arm_seed995':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 995, 'n_runs': 100},
+'arm_seed996':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 996, 'n_runs': 100},
+'arm_seed997':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 997, 'n_runs': 100},
+'arm_seed998':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 998, 'n_runs': 100},
+'arm_seed999':
+{'curiosity': (0.9, 0.3), 'confusion': 0.3, 'step_reward': -0.1, 'goal_reward': 1, 'learning_rate': 0.5, 'discount_factor': 0.8, 'bayesian': True, 'seed': 999, 'n_runs': 100},
+}
