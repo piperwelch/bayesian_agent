@@ -1,39 +1,30 @@
+import os
 import sys 
 import argparse
-
-from bayegent import Bayegent
-from environment import GridMazeEnvironment
+import subprocess
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--n_runs', type=int, default=10, help='Number of maze runs for Bayegent. n > 0')
-parser.add_argument('--seed', type=int, default=0, help='Seed for RNG')
-parser.add_argument("--vis", action="store_true", help="A boolean flag for visualizing") #have to do this to make booleans work 
-parser.add_argument('--gif_name', type=str, default='maze_trace', help='Name for saved file of maze run')
-parser.add_argument('--show_maze', action="store_true", help='A boolean flag for showing the maze before running the learning algorithm')
+parser.add_argument('exp_file')
+parser.add_argument('exp_name')
 
 args = parser.parse_args()
 
-assert args.n_runs > 0, "n_runs larger must be larger than 0"
+# Create experiment directory if it doesn't exist
+if not os.path.exists('./experiments'):
+    os.system('mkdir experiments')
+if not os.path.exists(f'./experiments/{args.exp_name}'):
+    os.system(f'mkdir ./experiments/{args.exp_name}')
 
-exp_parameters = {
-    'curiosity': [0.7 for _ in range(args.n_runs)],
-    'confusion': 0.9,
-    'step_reward': -0.1,
-    'goal_reward': 1,
-    'learning_rate': 0.5,
-    'discount_factor': 0.8,
-}
+# Read the experiment file into exp_arms variable
+exp_file = open(args.exp_file)
+exp_string = exp_file.read()
+exp_arms = eval(exp_string)
+exp_file.close()
+
+# assert args.n_runs > 0, "n_runs larger must be larger than 0"
 
 if __name__ == '__main__':
-    environment = GridMazeEnvironment(args.seed)
-    agent = Bayegent(environment, args.seed, parameters=exp_parameters)
+    for i, arm in enumerate(exp_arms):
+        subprocess.Popen(['python3', 'run_trial.py', args.exp_file, args.exp_name, arm, str(i)])
 
-    if args.show_maze:
-        environment.show_maze()
-
-    # position_history = agent.learn_qtable(n_runs=args.n_runs)
-    position_histories = agent.learn_bayesian(n_runs=args.n_runs, vis=args.vis)
-
-    if args.vis:
-        environment.visualize_agent_trajectory(position_histories[-1], args.gif_name)

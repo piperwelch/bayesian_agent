@@ -7,6 +7,7 @@ from collections import Counter
 from PIL import Image
 import imageio
 import io
+import pickle
 
 from shortest_path import shortest_path
 
@@ -37,11 +38,13 @@ class Bayegent:
         self.shortest_path_possible = shortest_path(self.environment.grid, self.environment.start_pos, self.environment.end_pos)
         assert self.environment.grid[self.position] == 0
 
+        self.path_lengths = np.zeros(parameters['n_runs'])
+
     def learn_bayesian(self, n_runs=100, debug=True, vis=False): 
         assert len(self.curiosity) == n_runs
         all_position_histories = []
-        f = open(f"data/seed_{self.seed}_curosity_{self.curiosity}_confusion_{self.confusion}.csv", "a")
-        f.write("run,path_length\n")
+        # f = open(f"data/seed_{self.seed}_curosity_{self.curiosity}_confusion_{self.confusion}.csv", "a")
+        # f.write("run,path_length\n")
         for i in range(n_runs): # Run through the maze N times
             vis_last_run = vis and (i+1 == n_runs)
             position_history, sa_history, posterior_history  = self.run_maze_bayesian(i, visualize_run=vis_last_run)
@@ -55,9 +58,9 @@ class Bayegent:
                 print(f'{i+1}/{n_runs} runs complete ({len(position_history)} steps)')
                 print(f'Distance from shortest path {len(position_history) - self.shortest_path_possible}')
             
-            f.write(f"{i},{len(position_history)}\n")
+            # f.write(f"{i},{len(position_history)}\n")
 
-        f.close()
+        # f.close()
         return all_position_histories
 
     def learn_qtable(self, n_runs=10, debug=True): 
@@ -260,6 +263,8 @@ class Bayegent:
 
         position_history.append(self.environment.end_pos)
 
+        self.path_lengths[run] = len(position_history)
+
         return position_history, sa_history, np.array(posterior_history)
 
     def update_qtable(self, state_action_list): # Written by ChatGPT
@@ -349,7 +354,10 @@ class Bayegent:
         img_arr = Image.open(buf)
 
         return np.array(img_arr)
-        
+    
+    def pickle_agent(self, file_path):
+        with open(file_path, 'wb') as pf:
+            pickle.dump(self, pf, protocol=pickle.HIGHEST_PROTOCOL)
 
 
 
