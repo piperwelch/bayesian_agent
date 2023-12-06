@@ -32,7 +32,7 @@ if __name__ == '__main__':
         environment.show_maze()
 
     # position_history = agent.learn_qtable(n_runs=args.n_runs)
-    position_histories = agent.learn_bayesian(n_runs=args.n_runs)
+    position_histories = agent.learn_bayesian(n_runs=args.n_runs, vis=args.vis)
 
     if args.vis:
         environment.visualize_agent_trajectory(position_histories[-1], args.gif_name)
