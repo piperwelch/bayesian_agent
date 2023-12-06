@@ -18,6 +18,7 @@ assert args.n_runs > 0, "n_runs larger must be larger than 0"
 
 exp_parameters = {
     'curiosity': [0.7 for _ in range(args.n_runs)],
+    'confusion': 0.9,
     'step_reward': -0.1,
     'goal_reward': 1,
     'learning_rate': 0.5,

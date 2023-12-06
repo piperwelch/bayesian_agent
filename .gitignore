@@ -1,4 +1,8 @@
 *.gif 
 __pycache__
+__pycache__/*
 *.pkl
 *.prof
+*.ipynb
+data*
+*.pyc

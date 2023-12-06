@@ -8,6 +8,7 @@ from PIL import Image
 import imageio
 import io
 
+from shortest_path import shortest_path
 
 class Bayegent:
     def __init__(self, environment, seed, parameters):
@@ -23,6 +24,7 @@ class Bayegent:
         self.goal_reward = parameters['goal_reward']
         self.learning_rate = parameters['learning_rate']
         self.discount_factor = parameters['discount_factor']
+        self.confusion = parameters['confusion']
 
         # Setup Bayesian data structures
         self.reset_prior()
@@ -31,14 +33,15 @@ class Bayegent:
 
         # Setup QTable for QLearning
         self.qtable = {}
-
         self.position = self.environment.start_pos
+        self.shortest_path_possible = shortest_path(self.environment.grid, self.environment.start_pos, self.environment.end_pos)
         assert self.environment.grid[self.position] == 0
 
     def learn_bayesian(self, n_runs=100, debug=True, vis=False): 
         assert len(self.curiosity) == n_runs
-
         all_position_histories = []
+        f = open(f"data/seed_{self.seed}_curosity_{self.curiosity}_confusion_{self.confusion}.csv", "a")
+        f.write("run,path_length\n")
         for i in range(n_runs): # Run through the maze N times
             vis_last_run = vis and (i+1 == n_runs)
             position_history, sa_history, posterior_history  = self.run_maze_bayesian(i, visualize_run=vis_last_run)
@@ -50,7 +53,11 @@ class Bayegent:
 
             if debug:
                 print(f'{i+1}/{n_runs} runs complete ({len(position_history)} steps)')
+                print(f'Distance from shortest path {len(position_history) - self.shortest_path_possible}')
+            
+            f.write(f"{i},{len(position_history)}\n")
 
+        f.close()
         return all_position_histories
 
     def learn_qtable(self, n_runs=10, debug=True): 
@@ -71,7 +78,7 @@ class Bayegent:
     
     def update_prior(self, action):
 
-        spread_factor = constants.confusion
+        spread_factor = self.confusion
 
         direction_to_kernel = {
         "U": np.array([[0, spread_factor, 0], [0, 1 - spread_factor, 0], [0, 0, 0]]),

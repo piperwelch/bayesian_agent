@@ -93,6 +93,7 @@ class GridMazeEnvironment:
         new_start = self.bfs(maze, farthest_point_from_start)
         end = self.bfs(maze, new_start)
 
+        #return start_row_column, end_row_column #which should this me 
         return new_start, end
 
     def read_maze_from_file(self, file_path):
