@@ -66,7 +66,7 @@ class Bayegent:
     def learn_qtable(self, n_runs=10, debug=True): 
         all_position_histories = []
         for i in range(n_runs): # Run through the maze N times
-            position_history, sa_history  = self.run_maze_qtable()
+            position_history, sa_history  = self.run_maze_qtable(i)
             self.update_qtable(sa_history)
 
             all_position_histories.append(position_history)
@@ -216,13 +216,17 @@ class Bayegent:
 
         position_history.append(self.position)
 
+        step = 0
         while self.position != self.environment.end_pos:
             sensor_state = self.sense()
             action = self.take_qtable_action(sensor_state, self.curiosity[run])
             sa_history.append((sensor_state, action))
             position_history.append(self.position)
+            step += 1
 
         position_history.append(self.environment.end_pos)
+
+        self.path_lengths[run] = len(position_history)
 
         return position_history, sa_history
 
